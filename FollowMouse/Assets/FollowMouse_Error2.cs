@@ -19,4 +19,4 @@ public class FollowMouse_Error2 : MonoBehaviour
 		//reposition the player
 		transform.position = adjustedPosition;
 	}
-
+}//missing closing bracket
