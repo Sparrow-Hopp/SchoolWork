@@ -19,6 +19,6 @@ public class FollowMouse_Error3 : MonoBehaviour
 		//set the z of the player to 0
 		adjustedPosition.z = 0f;
 		//reposition the player
-		Vector3 transform.position = adjustedPosition;//didn't declare type of transform.position
+		transform.position = adjustedPosition;//I guess this works...?
 	}
 }
