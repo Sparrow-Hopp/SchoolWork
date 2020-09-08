@@ -15,7 +15,7 @@ public class FollowMouse_Error3 : MonoBehaviour
 	{
 		Vector3 mousePosition = Input.mousePosition;//Get the mouse position in screen pixels
 
-		Debug.Log (mousePosition);
+		Debug.Log (mousePosition);//added debug
 		//convert screen coordinates to world space
 		Vector3 adjustedPosition = Camera.main.ScreenToWorldPoint (mousePosition);
 		//set the z of the player to 0
