@@ -1,6 +1,7 @@
 Daily Updates:
 Day 1: Finished creating maze 1
 Day 2 part 1: Finished creating maze 2, hoping to get the player moving by the end of the day and the triggers working
+Day 2 part 2: Base game coded, need to add deactivating walls and timer
 
 Controls:
 ~use directional keys to move player
