@@ -3844,6 +3844,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3859,6 +3860,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10027a7d32e69d64ebf4b1e8d0b9c247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 277906807}
+  offset: {x: 6, y: 6, z: -10}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3886,7 +3901,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 209.26978
+  orthographic size: 76.47162
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8807,6 +8822,7 @@ GameObject:
   - component: {fileID: 1284211614}
   - component: {fileID: 1284211613}
   - component: {fileID: 1284211612}
+  - component: {fileID: 1284211618}
   m_Layer: 0
   m_Name: Trigger1
   m_TagString: Untagged
@@ -8954,6 +8970,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1284211618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284211611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1488cce1cf60d7246a3b8a654cc829dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1286471039
 GameObject:
   m_ObjectHideFlags: 0
