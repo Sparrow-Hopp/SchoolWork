@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Enemy : MonoBehaviour
 {
     float respawnX;
@@ -11,12 +10,6 @@ public class Enemy : MonoBehaviour
     {
         respawnX = transform.position.x;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void Respawn()
     {
         gameObject.SetActive(true);
@@ -24,7 +17,6 @@ public class Enemy : MonoBehaviour
         transform.position = newPos;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
-
     void OnMouseDown()
     {
         Debug.Log("down");
