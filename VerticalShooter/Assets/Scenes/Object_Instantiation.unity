@@ -121,6 +121,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1298221046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298221047}
+  m_Layer: 0
+  m_Name: LaserSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298221047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298221046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04, y: 1.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626246538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1626246533
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,6 +164,7 @@ GameObject:
   - component: {fileID: 1626246536}
   - component: {fileID: 1626246535}
   - component: {fileID: 1626246534}
+  - component: {fileID: 1626246539}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -199,18 +230,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.53999996, y: 0.42999998}
-      - {x: 0.53999996, y: 0.47}
-      - {x: -0.53999996, y: 0.47}
-      - {x: -0.53999996, y: 0.42}
-      - {x: -0.48999998, y: 0.32999998}
-      - {x: -0.22, y: -0.14}
-      - {x: -0.07, y: -0.39999998}
-      - {x: -0.02, y: -0.47}
-      - {x: 0.03, y: -0.47}
-      - {x: 0.07, y: -0.39999998}
-      - {x: 0.22, y: -0.14}
-      - {x: 0.53, y: 0.39999998}
+    - - {x: 0.42, y: -0.21}
+      - {x: 0.17999999, y: 0.21}
+      - {x: 0.07, y: 0.39999998}
+      - {x: 0.02, y: 0.47}
+      - {x: -0.03, y: 0.47}
+      - {x: -0.07, y: 0.39999998}
+      - {x: -0.42, y: -0.21}
+      - {x: -0.53999996, y: -0.42}
+      - {x: -0.53999996, y: -0.47}
+      - {x: 0.53999996, y: -0.47}
+      - {x: 0.53999996, y: -0.42}
+      - {x: 0.48999998, y: -0.32999998}
 --- !u!212 &1626246537
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -269,12 +300,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626246533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.107242346, y: -3.3165917, z: 0}
+  m_LocalPosition: {x: 0.14, y: -3.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1298221047}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1626246539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626246533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30bd09340505b784b8765f5a33351737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 8224900089630298505, guid: be15a1c6e3810734db11fe00b6cb63fd,
+    type: 3}
 --- !u!1 &2066903920
 GameObject:
   m_ObjectHideFlags: 0

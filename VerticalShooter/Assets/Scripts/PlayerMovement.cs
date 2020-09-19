@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     float xMove = 10f;
     float xSpeed = 10f;
     float ySpeed = 5f;
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     float boundsUp = -2f;
     float boundsDown = -4.45f;
     Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,27 +26,29 @@ public class PlayerMovement : MonoBehaviour
     {
         CheckInput();
     }
+    void FixedUpdate()
+    {
+        Move();
+        CheckBounds();
+    }
 
     void CheckInput()
     {
         xMove = Input.GetAxis ("Horizontal") * xSpeed;
         yMove = Input.GetAxis ("Vertical") * ySpeed;
     }
+
     void Move()
     {
         Vector2 newVelocity = new Vector2(xMove, yMove);
         rb.velocity = newVelocity;
     }
-    void FixedUpdate()
-    {
-        Move();
-        CheckBounds();
-    }
+
     void CheckBounds()
     {
-        Vector2 maxPosX;
-        Vector2 maxPosY;
-        //Horizontal
+    Vector2 maxPosX;
+    Vector2 maxPosY;
+         //Horizontal
         if (transform.position.x < boundsLeft)
         {
             maxPosX = new Vector2(boundsLeft, transform.position.y);

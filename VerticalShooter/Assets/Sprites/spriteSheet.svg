@@ -159,7 +159,7 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="560"
+     inkscape:cy="554.28571"
      inkscape:cx="400"
      inkscape:zoom="0.35"
      inkscape:pageshadow="2"
@@ -183,7 +183,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -220,10 +220,11 @@
        style="font-variation-settings:normal;opacity:0.99500004;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;filter:url(#filter1023)"
        sodipodi:type="star" />
     <path
+       transform="rotate(180,169.33333,33.866665)"
        inkscape:export-ydpi="46.864849"
        inkscape:export-xdpi="46.864849"
-       inkscape:transform-center-y="8.4666661"
-       inkscape:transform-center-x="2.1333333e-06"
+       inkscape:transform-center-y="-8.4666653"
+       inkscape:transform-center-x="-2.3218108e-06"
        d="m 169.33333,67.73333 -29.32939,-50.799997 58.65878,-1e-6 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -236,7 +237,7 @@
        sodipodi:cx="169.33333"
        sodipodi:sides="3"
        id="path18"
-       style="font-variation-settings:normal;opacity:0.99500004;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;filter:url(#filter1027)"
+       style="font-variation-settings:normal;opacity:0.998;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1027);stop-color:#000000;stop-opacity:1"
        sodipodi:type="star" />
     <path
        inkscape:export-ydpi="46.864849"
@@ -358,5 +359,24 @@
        id="path34"
        style="font-variation-settings:normal;opacity:0.99500004;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1;filter:url(#filter1055)"
        sodipodi:type="star" />
+    <path
+       sodipodi:type="star"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="path863"
+       sodipodi:sides="4"
+       sodipodi:cx="101.6"
+       sodipodi:cy="237.06667"
+       sodipodi:r1="33.866665"
+       sodipodi:r2="23.94735"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.3561945"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 101.6,270.93333 67.733334,237.06667 101.6,203.2 l 33.86666,33.86666 z"
+       inkscape:transform-center-x="1.28e-06"
+       inkscape:transform-center-y="-2.9866666e-06"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
