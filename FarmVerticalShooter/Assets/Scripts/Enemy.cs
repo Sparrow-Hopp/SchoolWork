@@ -5,6 +5,8 @@ public class Enemy : MonoBehaviour
 {
     float respawnX;
     float respawnY = 6;
+    public int time;//time between respawns
+    public GameObject enemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,4 +25,5 @@ public class Enemy : MonoBehaviour
         gameObject.SetActive(false); //set SetActive to false (deactivating enemies)
         GameManager.singleton.UnlistEnemy(gameObject); //remove enemy reference from activeEnemyList (that lives in the singleton GameManager object)
     }
+    
 }
