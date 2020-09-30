@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 public class GameManager : MonoBehaviour
 {
-    public static GameManager singleton; //this declares an instance of GameManager, allowing GameManager to always exist
+    //public static GameManager singleton; //this declares an instance of GameManager, allowing GameManager to always exist
     public GameObject[] enemyArray; //create an array of enemy prefabs
     public List<GameObject> activeEnemyList; //Create a list (built later from the above array) to store enemies
-    GameObject[] totalHealthArray;
-    int totalHealth;
-    int currentTotalHealthArrayIndex = 0;
-    void Awake() //Awake runs quite early in the game initialization process, ensuring that GameManager will exist before needed by other objects
+    //GameObject[] totalHealthArray;
+    //int totalHealth;
+    //int currentTotalHealthArrayIndex = 0;
+    /*void Awake() //Awake runs quite early in the game initialization process, ensuring that GameManager will exist before needed by other objects
     {
         singleton = this; //initialize the singleton with this object. 
-    }
+    }*/
     // Start is called before the first frame update
     void Start()
     {
         enemyArray = GameObject.FindGameObjectsWithTag("Enemy"); //load up enemyArray with any objects tagged "Enemy"
         InitEnemies();
-        totalHealth = Health.maxPlayerHealth = Health.currentPlayerHealth = InitHealth(); //assign all total health values at once
-        Debug.Log(totalHealth);
+        //totalHealth = Health.maxPlayerHealth = Health.currentPlayerHealth = InitHealth(); //assign all total health values at once
+        //Debug.Log(totalHealth);
     }
     void InitEnemies()
     {
@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
             activeEnemyList.Add(enemyArray[i]);
         }
     }
-    public int InitHealth() //initialize health variables, array and return accumulator value
+    /*public int InitHealth() //initialize health variables, array and return accumulator value
     {
         int accumulator = 0;
         totalHealthArray = GameObject.FindGameObjectsWithTag("Heart"); //load up totalHealthArray with any objects tagged "Heart"
@@ -88,5 +88,5 @@ public class GameManager : MonoBehaviour
             totalHealth -= damage;
             Health.currentPlayerHealth = totalHealth;
         }
-    }
+    }*/
 }

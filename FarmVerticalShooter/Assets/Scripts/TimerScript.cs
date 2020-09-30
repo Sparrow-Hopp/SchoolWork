@@ -30,14 +30,4 @@ public class TimerScript : MonoBehaviour
         timerText.text = timer.ToString();//always goes up
 
     }
-    IEnumerator spawnEnemy() 
-    {
-    yield return new WaitForSeconds(time);//spawns in a new enemy every (time) seconds
-    Instantiate (enemy);
-    
-    }
-    public void StartCoroutine()
-    {
-        spawnEnemy();
-    }
 }

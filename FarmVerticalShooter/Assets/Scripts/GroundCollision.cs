@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundCollision : MonoBehaviour
 {
     // Start is called before the first frame update
-    void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log ("OnCollisionEnter2D");
     }
@@ -18,5 +18,5 @@ public class GroundCollision : MonoBehaviour
     void OnCollisionStay2D(Collision2D collision)
     {
         Debug.Log ("OnCollisionStay2D");
-    }
+    }*/
 }

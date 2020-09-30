@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Heart
+  - Laser
+  - Pumpkin
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Player
+    uniqueID: 1995005193
+    locked: 0
+  - name: Pumpkins
+    uniqueID: 1605531025
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
