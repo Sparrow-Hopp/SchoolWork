@@ -736,39 +736,38 @@
        inkscape:export-xdpi="33.248539"
        inkscape:export-ydpi="33.248539" />
     <rect
-       transform="matrix(1,0,-0.37571678,0.92673454,0,0)"
+       transform="scale(-1,1)"
        inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\FarmVerticalShooter\Assets\Sprites\walkFullL.png"
        inkscape:export-ydpi="25.4"
        inkscape:export-xdpi="25.4"
        rx="23.422644"
-       y="90.907104"
-       x="112.48138"
-       height="137.49342"
+       y="84.246758"
+       x="-190.66989"
+       height="127.41991"
        width="127.41991"
        id="rect957"
-       style="opacity:0.995;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.602587;stroke-opacity:1" />
+       style="opacity:0.995;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.580092;stroke-opacity:1" />
     <rect
-       transform="matrix(1,0,-0.37571678,0.92673454,0,0)"
+       transform="scale(-1,1)"
        inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\FarmVerticalShooter\Assets\Sprites\idleFrontL.png"
        inkscape:export-ydpi="25.4"
        inkscape:export-xdpi="25.4"
-       style="opacity:0.995;fill:#000000;fill-opacity:1;stroke-width:0.151332"
+       style="opacity:0.995;fill:#000000;fill-opacity:1;stroke-width:0.145683"
        id="rect959"
        width="32"
-       height="34.529846"
-       x="207.48138"
-       y="113.9305"
+       height="32"
+       x="-169.25322"
+       y="105.58334"
        rx="5.882319" />
     <rect
-       transform="matrix(1,0,-0.37571678,0.92673454,0,0)"
        inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\FarmVerticalShooter\Assets\Sprites\walkStartL.png"
        rx="5.882319"
-       y="114.20028"
-       x="207.48138"
-       height="34.529846"
+       y="105.83334"
+       x="94.919876"
+       height="32"
        width="32"
        id="rect963"
-       style="opacity:0.995;fill:#000000;fill-opacity:1;stroke-width:0.151332"
+       style="opacity:0.995;fill:#000000;fill-opacity:1;stroke-width:0.145683"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4" />
   </g>
