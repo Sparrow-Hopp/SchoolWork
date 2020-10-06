@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="816"
+   height="1056"
+   viewBox="0 0 215.9 279.4"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="healthHearts.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="186.27387,140.15089"
+       end_point="186.1879,152.52167"
+       center_point="186.23089,146.33628"
+       id="path-effect4613"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="186.19912,119.80165"
+       end_point="186.37866,158.10538"
+       center_point="186.28889,138.95351"
+       id="path-effect4611"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4607"
+       center_point="152.34566,141.87876"
+       end_point="152.43543,161.03063"
+       start_point="152.25589,122.7269"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4603"
+       center_point="186.26667,145.73942"
+       end_point="186.26667,164.12146"
+       start_point="186.26667,127.35737"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="152.40485,127.35737"
+       end_point="152.40485,164.12146"
+       center_point="152.40485,145.73942"
+       id="path-effect4599"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="118.53333,127.6707"
+       end_point="118.53333,164.43479"
+       center_point="118.53333,146.05274"
+       id="path-effect4595"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4591"
+       center_point="84.661791,146.06189"
+       end_point="84.66179,164.44394"
+       start_point="84.661792,127.67985"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="186.26667,59.62404"
+       end_point="186.26667,96.388138"
+       center_point="186.26667,78.006089"
+       id="path-effect4587"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4583"
+       center_point="152.40485,78.357983"
+       end_point="152.40485,96.740032"
+       start_point="152.40485,59.975934"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4579"
+       center_point="118.53333,78.006089"
+       end_point="118.53333,96.388138"
+       start_point="118.53333,59.62404"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4575"
+       center_point="186.26667,78.357983"
+       end_point="186.26667,96.740031"
+       start_point="186.26667,59.975934"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="152.40485,59.975934"
+       end_point="152.40485,96.740031"
+       center_point="152.40485,78.357983"
+       id="path-effect4569"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="118.53333,59.975934"
+       end_point="118.53333,96.740031"
+       center_point="118.53333,78.357983"
+       id="path-effect4559"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="704.00001,160.16101"
+       end_point="704.00001,299.11193"
+       center_point="704.00001,229.63647"
+       id="path-effect4542"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4538"
+       center_point="576.01833,229.63647"
+       end_point="576.01833,299.11193"
+       start_point="576.01833,160.16101"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4534"
+       center_point="447.99999,229.63647"
+       end_point="447.99999,299.11193"
+       start_point="447.99999,160.16101"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       oposite_fuse="false"
+       fuse_paths="false"
+       discard_orig_path="false"
+       mode="free"
+       is_visible="true"
+       id="path-effect4518"
+       center_point="61.084981,77.689809"
+       end_point="61.08498,96.071858"
+       start_point="61.084982,59.30776"
+       effect="mirror_symmetry" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="84.671518,59.975934"
+       end_point="84.671516,96.740032"
+       center_point="84.671517,78.357983"
+       id="path-effect4512"
+       is_visible="true"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4555">
+      <path
+         inkscape:export-ydpi="95.999908"
+         inkscape:export-xdpi="95.999908"
+         inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+         inkscape:original-d="m 118.53333,72.985229 c 0,-20.282395 28.01593,-13.027721 10.2376,4.962287 -10.15744,10.141196 -10.2376,15.10321 -10.2376,15.10321"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4557"
+         d="m 118.53333,72.985229 c 0,-20.282395 28.01593,-13.027721 10.2376,4.962287 -10.15744,10.141196 -10.2376,15.10321 -10.2376,15.10321 m 0,-20.065497 c 0,-20.282395 -28.01593,-13.027721 -10.2376,4.962287 10.15744,10.141196 10.2376,15.10321 10.2376,15.10321"
+         style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:path-effect="#path-effect4559" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4565">
+      <path
+         inkscape:export-ydpi="95.999908"
+         inkscape:export-xdpi="95.999908"
+         inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+         inkscape:original-d="m 152.40486,72.985229 c 0,-20.282395 28.01593,-13.027721 10.23759,4.962287 -10.15743,10.141196 -10.23759,15.10321 -10.23759,15.10321"
+         inkscape:path-effect="#path-effect4569"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4567"
+         d="m 152.40486,72.985229 c 0,-20.282395 28.01593,-13.027721 10.23759,4.962287 -10.15743,10.141196 -10.23759,15.10321 -10.23759,15.10321 m -2e-5,-20.065497 c 0,-20.282395 -28.01593,-13.027721 -10.23759,4.962287 10.15743,10.141196 10.23759,15.10321 10.23759,15.10321"
+         style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4571">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186.26667,72.985229 c 0,-20.282395 28.01593,-13.027721 10.2376,4.962287 -10.15744,10.141196 -10.2376,15.10321 -10.2376,15.10321 m 0,-20.065497 c 0,-20.282395 -28.01593,-13.027721 -10.2376,4.962287 10.15744,10.141196 10.2376,15.10321 10.2376,15.10321"
+         id="path4573"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc"
+         inkscape:path-effect="#path-effect4575"
+         inkscape:original-d="m 186.26667,72.985229 c 0,-20.282395 28.01593,-13.027721 10.2376,4.962287 -10.15744,10.141196 -10.2376,15.10321 -10.2376,15.10321"
+         inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+         inkscape:export-xdpi="95.999908"
+         inkscape:export-ydpi="95.999908" />
+    </mask>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="519.91125"
+     inkscape:cy="537.19412"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1171"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     inkscape:snap-others="false"
+     inkscape:snap-nodes="true"
+     inkscape:snap-global="true"
+     inkscape:snap-grids="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4485"
+       spacingx="4.2333333"
+       spacingy="4.2333333"
+       empspacing="8" />
+    <sodipodi:guide
+       position="84.671522,203.94927"
+       orientation="1,0"
+       id="guide4514"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="67.733333,211.66667"
+       orientation="0,1"
+       id="guide4526"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="67.733333,220.13333"
+       orientation="0,1"
+       id="guide4528"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="67.733333,228.6"
+       orientation="0,1"
+       id="guide4530"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-17.6)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4563"
+       width="33.866665"
+       height="8.4666719"
+       x="169.33333"
+       y="85.333328"
+       mask="url(#mask4571)"
+       transform="matrix(0.8828125,0,0,0.93303576,21.828124,5.7142818)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4561"
+       width="33.866665"
+       height="16.933331"
+       x="135.46666"
+       y="76.866669"
+       mask="url(#mask4565)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4544"
+       width="33.866665"
+       height="25.400002"
+       x="101.6"
+       y="68.400002"
+       ry="0"
+       mask="url(#mask4555)"
+       transform="matrix(0.93303573,0,0,0.92931548,7.9375032,4.8348213)" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84.671522,72.985229 c 0,-20.282395 28.015928,-13.02772 10.237596,4.962286 C 84.751683,88.088712 84.671522,93.050726 84.671522,93.050726 m -9e-6,-20.065497 C 84.671515,52.702834 56.655586,59.957506 74.433916,77.947514 84.59135,88.088712 84.67151,93.050726 84.67151,93.050726"
+       id="path4506"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:path-effect="#path-effect4512"
+       inkscape:original-d="m 84.671522,72.985229 c 0,-20.282395 28.015928,-13.02772 10.237596,4.962286 C 84.751683,88.088712 84.671522,93.050726 84.671522,93.050726"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-ydpi="95.999908" />
+    <path
+       inkscape:export-ydpi="95.999908"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+       inkscape:original-d="m 118.53333,72.633335 c 0,-20.282395 28.01593,-13.02772 10.2376,4.962286 -10.15744,10.141197 -10.2376,15.103211 -10.2376,15.103211"
+       inkscape:path-effect="#path-effect4579"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path4577"
+       d="m 118.53333,72.633335 c 0,-20.282395 28.01593,-13.02772 10.2376,4.962286 -10.15744,10.141197 -10.2376,15.103211 -10.2376,15.103211 m 0,-20.065497 c 0,-20.282395 -28.01593,-13.02772 -10.2376,4.962286 10.15744,10.141197 10.2376,15.103211 10.2376,15.103211"
+       style="fill:none;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="95.999908"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+       inkscape:original-d="m 152.40486,72.985229 c 0,-20.282395 28.01593,-13.02772 10.23759,4.962286 -10.15743,10.141197 -10.23759,15.103211 -10.23759,15.103211"
+       inkscape:path-effect="#path-effect4583"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path4581"
+       d="m 152.40486,72.985229 c 0,-20.282395 28.01593,-13.02772 10.23759,4.962286 -10.15743,10.141197 -10.23759,15.103211 -10.23759,15.103211 m -2e-5,-20.065497 c 0,-20.282395 -28.01593,-13.02772 -10.23759,4.962286 10.15743,10.141197 10.23759,15.103211 10.23759,15.103211"
+       style="fill:none;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 186.26667,72.633335 c 0,-20.282395 28.01593,-13.02772 10.2376,4.962286 -10.15744,10.141197 -10.2376,15.103211 -10.2376,15.103211 m 0,-20.065497 c 0,-20.282395 -28.01593,-13.02772 -10.2376,4.962286 10.15744,10.141197 10.2376,15.103211 10.2376,15.103211"
+       id="path4585"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:path-effect="#path-effect4587"
+       inkscape:original-d="m 186.26667,72.633335 c 0,-20.282395 28.01593,-13.02772 10.2376,4.962286 -10.15744,10.141197 -10.2376,15.103211 -10.2376,15.103211"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-ydpi="95.999908" />
+    <path
+       inkscape:export-ydpi="95.999908"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128_0.png"
+       inkscape:original-d="m 84.661796,140.68915 c 0,-20.28239 28.015924,-13.02772 10.237596,4.96229 -10.157435,10.14119 -10.237596,15.10321 -10.237596,15.10321"
+       inkscape:path-effect="#path-effect4591"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path4589"
+       d="m 84.661796,140.68915 c 0,-20.28239 28.015924,-13.02772 10.237596,4.96229 -10.157435,10.14119 -10.237596,15.10321 -10.237596,15.10321 m -9e-6,-20.0655 c 2e-6,-20.28239 -28.015923,-13.02772 -10.237597,4.96229 10.157434,10.14119 10.237594,15.10321 10.237594,15.10321"
+       style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.58583021;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="g5015"
+       transform="translate(0,0.01276767)"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128_1.png"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-ydpi="95.999908">
+      <path
+         inkscape:export-ydpi="95.999908"
+         inkscape:export-xdpi="95.999908"
+         inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128_1.png"
+         inkscape:original-d="m 118.53333,140.68 c 0,-20.28239 28.01593,-13.02772 10.2376,4.96229 -10.15744,10.14119 -10.2376,15.10321 -10.2376,15.10321 l -0.41577,-5.64571 1.6064,-1.22842 -2.17336,-2.26786 2.26785,-1.98438 -2.36235,-2.26785 2.92932,-2.83483 z"
+         inkscape:path-effect="#path-effect4595"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4593"
+         d="m 118.53333,140.68 c 0,-20.28239 28.01593,-13.02772 10.2376,4.96229 -10.15744,10.14119 -10.2376,15.10321 -10.2376,15.10321 l -0.41577,-5.64571 1.6064,-1.22842 -2.17336,-2.26786 2.26785,-1.98438 -2.36235,-2.26785 2.92932,-2.83483 z m 0,0 c 0,-20.28239 -28.01593,-13.02772 -10.2376,4.96229 10.15744,10.14119 10.2376,15.10321 10.2376,15.10321 l 0.41577,-5.64571 -1.6064,-1.22842 2.17336,-2.26786 -2.26785,-1.98438 2.36235,-2.26785 -2.92932,-2.83483 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="127.66666"
+         x="101.6"
+         height="33.866665"
+         width="33.866665"
+         id="rect5011"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5021"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128_2.png"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-ydpi="95.999908">
+      <path
+         inkscape:path-effect="#path-effect4607"
+         inkscape:original-d="m 154.62258,140.87148 c 1.86744,-17.21235 24.97479,-8.4763 8.2311,5.15377 -9.55368,7.67096 -10.07857,11.87452 -10.07857,11.87452 l 0.16698,-4.82943 1.47634,-0.89458 -1.63558,-2.12469 2.10728,-1.47521 -1.79596,-2.14208 2.74693,-2.13603 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:0.33877856;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 154.62258,140.87148 c 1.86744,-17.21235 24.97479,-8.4763 8.2311,5.15377 -9.55368,7.67096 -10.07857,11.87452 -10.07857,11.87452 l 0.16698,-4.82943 1.47634,-0.89458 -1.63558,-2.12469 2.10728,-1.47521 -1.79596,-2.14208 2.74693,-2.13603 z m -4.56318,0.0214 c -2.02871,-17.19409 -25.05315,-8.24181 -8.18243,5.2307 9.62517,7.58107 10.18945,11.77952 10.18945,11.77952 l -0.21225,-4.82765 -1.48466,-0.8807 1.61559,-2.13993 -2.12102,-1.45539 1.7758,-2.15882 -2.76683,-2.11019 z"
+         id="path4605"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128_2.png"
+         inkscape:export-xdpi="95.999908"
+         inkscape:export-ydpi="95.999908" />
+      <rect
+         y="127.66667"
+         x="135.46666"
+         height="33.866657"
+         width="33.866676"
+         id="rect5017"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5027"
+       inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128_3.png"
+       inkscape:export-xdpi="95.999908"
+       inkscape:export-ydpi="95.999908">
+      <path
+         inkscape:original-d="m 192.72695,141.66027 c 5.956,-10.25665 17.99308,1.63896 3.71988,5.5157 -8.11453,2.14556 -9.61219,4.63127 -9.61219,4.63127 l 1.44764,-2.97708 1.17306,-0.14949 -0.43308,-1.78505 1.72955,-0.33753 -0.52865,-1.84054 2.31379,-0.57335 z"
+         inkscape:path-effect="#path-effect4613"
+         inkscape:export-ydpi="95.999908"
+         inkscape:export-xdpi="95.999908"
+         inkscape:export-filename="/home/jdpf/Source/Repos/egd202-game-tech-1/VerticalShooterTutorials/Assets/Sprites/heart128.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4609"
+         d="m 192.72695,141.66027 c 5.956,-10.25665 17.99308,1.63896 3.71988,5.5157 -8.11453,2.14556 -9.61219,4.63127 -9.61219,4.63127 l 1.44764,-2.97708 1.17306,-0.14949 -0.43308,-1.78505 1.72955,-0.33753 -0.52865,-1.84054 2.31379,-0.57335 z m -12.92651,-0.0898 c -5.81288,-10.33844 -18.01413,1.38873 -3.79618,5.46347 8.08392,2.25813 9.54689,4.76441 9.54689,4.76441 l -1.40612,-2.99691 -1.17087,-0.16578 0.45785,-1.77886 -1.7247,-0.36153 0.55418,-1.83302 -2.30559,-0.60545 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#c8c8c8;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="127.66666"
+         x="169.33333"
+         height="33.866665"
+         width="33.866665"
+         id="rect5023"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
