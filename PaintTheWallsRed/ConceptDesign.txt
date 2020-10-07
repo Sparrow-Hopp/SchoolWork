@@ -1,0 +1,15 @@
+Concept Design for Paint the Walls Red
+
+Main premise of platformer: use projectile attacks to modify the terrain
+-red: bouncy
+-blue: icy
+-yellow/orange: sticky
+-purple: ghost (pass through) 
+Player is controlled through WASD movement (space to jump), weapon is a paintbrush that follows mouse movement
+Cycle through attacks using M2 (right click)
+Fire projectiles using M1 (left click)
+Make all ground types, enemies (if I decide to add enemies), and projectiles prefabs
+Add sound effects to launching projectiles and projectiles making contact with walls
+Add idle animations, walking animations, and attack animations
+
+Bonus if I have time: create a story for the game which is incorporated into a tutorial on how to play
