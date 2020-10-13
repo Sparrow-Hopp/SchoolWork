@@ -1,0 +1,27 @@
+Learning outcomes:
+	level 1: basic movement
+	level 2: fire with weapon to defeat enemies
+	level 3: use weapon ammo types to alter terrain
+	level 4: put all together, use ammo to trap enemies, unlock areas, etc.
+	level 5: time limit (mastery of skills, moving wall(temple of doom esque)?)
+Verbs:
+	-run
+	-jump
+	-stick to walls
+	-shoot weapon
+	-aim
+	-kill
+Obstacles:
+	-gaps
+	-walls
+	-high ledges
+	-moving platforms
+	-enemies
+Overcome:
+	-run and jump over gaps
+	-use ghost ammo to make walls disappear
+	or
+	-use sticky ammo to climb walls
+	-use rubber ammo to use physics to bounce over high ledges
+	-run and jump onto moving platforms
+	-use ammo to hit and kill enemies

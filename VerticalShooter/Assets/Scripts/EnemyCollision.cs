@@ -6,7 +6,7 @@ public class EnemyCollision : MonoBehaviour
 {
     public GameObject explosionPrefab;
     
-    int damage = 0;
+    //int damage = 0;
     void OnCollisionEnter2D(Collision2D collision)
     {
         Instantiate(explosionPrefab, transform.position, transform.rotation);
