@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FollowMouse_Error4 : MonoBehaviour 
+public class FollowMouse : MonoBehaviour 
 {
 
-	public GameObject player;//made it public
+	GameObject player;
 
-	void start()
+	void Start()
 	{
 		player = GameObject.Find ("Player");
 	}
