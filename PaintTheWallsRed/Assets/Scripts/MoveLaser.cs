@@ -16,9 +16,7 @@ public class MoveLaser : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(mouse * thrust);
     }
 
-    // Update is called once per frame
-
-    void onTriggerEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         Destroy(gameObject);
     }
