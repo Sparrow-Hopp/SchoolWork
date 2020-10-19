@@ -8,6 +8,7 @@ TagManager:
   - GhostPaint
   - StickyPaint
   - RubberPaint
+  - Brush
   layers:
   - Default
   - TransparentFX

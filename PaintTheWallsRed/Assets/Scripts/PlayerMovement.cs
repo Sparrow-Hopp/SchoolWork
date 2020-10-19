@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     float xMove = 0f;
-    public float xSpeed = 5f;
+    public float xSpeed = 50f;
     Rigidbody2D myRigidbody2D;
-    public float jumpForce = 700f;
+    public float jumpForce = 3500f;
     bool isGrounded = false;
     bool shouldJump = false;
     public LayerMask ground;
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
     void CheckGround()
     {
-        Collider2D col = Physics2D.OverlapCircle(groundCheck.position, 1f, ground);
+        Collider2D col = Physics2D.OverlapCircle(groundCheck.position, 10f, ground);
         if (col == null)
         {
             isGrounded = false;

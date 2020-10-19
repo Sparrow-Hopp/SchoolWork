@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420962047812580789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 0.78, z: 0}
+  m_LocalPosition: {x: 0.64, y: 1.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3420962047959931113}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 3420962047959931112}
   m_Layer: 0
   m_Name: GhostBrush
-  m_TagString: Untagged
+  m_TagString: Brush
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 3420962047959931118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.43, y: 0.04, z: 0}
-  m_LocalScale: {x: 0.9820977, y: 0.9820977, z: 0.9820977}
+  m_LocalScale: {x: 10, y: 10, z: 0.9820977}
   m_Children:
   - {fileID: 3420962047812580788}
   m_Father: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8168202331325129572}
   - component: {fileID: 8168202331325129575}
   - component: {fileID: 8168202331325129574}
-  - component: {fileID: 8168202331325129569}
+  - component: {fileID: -615363379020330852}
   m_Layer: 10
   m_Name: Rubber_Ground
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8168202331325129568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.01, y: -1.27, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.25, y: 1.25}
   m_EdgeRadius: 0
---- !u!114 &8168202331325129569
+--- !u!114 &-615363379020330852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,3 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4364749f2fc25b6458b401018cecbd39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ghost: {fileID: 8423938702974544291, guid: 327ff7d147c353f458f2cd64aa80acdf, type: 3}
+  sticky: {fileID: 1209014670813353745, guid: de06bdedc7e896f4f8426a4e276106bd, type: 3}
+  rubber: {fileID: 8168202331325129568}
+  reg: {fileID: 1502543989323100257, guid: c2cf78477b4be5447b2873d5aa657037, type: 3}

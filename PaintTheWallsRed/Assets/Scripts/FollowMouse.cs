@@ -3,9 +3,8 @@ using System.Collections;
 
 public class FollowMouse : MonoBehaviour 
 {
-
 	public float offset;
-
+	
 	void Update () 
 	{
 		Follow ();
