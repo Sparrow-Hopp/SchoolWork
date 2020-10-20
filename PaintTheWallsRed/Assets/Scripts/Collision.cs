@@ -25,11 +25,5 @@ public class Collision : MonoBehaviour
             Instantiate(rubber, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-        else if (col.gameObject.tag == "Paint")
-        {
-            reg.transform.localScale = this.transform.localScale;
-            Instantiate(reg, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
     }
 }

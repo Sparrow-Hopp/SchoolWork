@@ -13,12 +13,24 @@ public class EnemyCollisions : MonoBehaviour
             SceneManager.LoadScene(scene.name);//reload current scene
         }
         else if (col.gameObject.tag == "Paint")
+        {
             gameObject.SetActive(false);
+        }
         else if (col.gameObject.tag == "StickyPaint")
+        {
             gameObject.SetActive(false);
+        }
         else if (col.gameObject.tag == "GhostPaint")
+        {
             gameObject.SetActive(false);
+        }
         else if (col.gameObject.tag == "RubberPaint")
+        {
             gameObject.SetActive(false);
+        }
+        if (col.gameObject.tag == "Enemy")
+        {
+            Physics2D.IgnoreCollision(col.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
 }

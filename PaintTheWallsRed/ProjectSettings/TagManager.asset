@@ -9,6 +9,9 @@ TagManager:
   - StickyPaint
   - RubberPaint
   - Brush
+  - StickyGround
+  - MovingPlatform
+  - Enemy
   layers:
   - Default
   - TransparentFX
