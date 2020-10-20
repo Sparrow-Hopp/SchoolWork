@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -79,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "StickyGround")
         {
             Physics.gravity = new Vector3(0, -1.0F, 0);
+            isGrounded = true;
         }
     }
 
@@ -87,6 +87,11 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "MovingPlatform")
         {
             transform.parent = null;
+        }
+        if (collision.gameObject.tag == "StickyGround")
+        {
+            Physics.gravity = new Vector3(0, -1.0F, 0);
+            isGrounded = false;
         }
     }
 }
