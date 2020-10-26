@@ -42,4 +42,9 @@ public class Square : MonoBehaviour
         // avoid using Resources if you want to build the project see:
         // https://unity3d.com/learn/tutorials/topics/best-practices/resources-folder
     }
+
+    void OnMouseDown()
+    {
+        GridManager.OnDown(this);
+    }
 }

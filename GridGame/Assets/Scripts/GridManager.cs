@@ -13,6 +13,7 @@ public class GridManager : MonoBehaviour
     public int rows;
     public int cols;
     readonly float spacer = 0.1f; //readonly means what it says: spacer is not writable during runtime
+    public GameObject player;
 
     public Text nameTF; //Drag Grid_Name from Hierarchy to assign.
     public Text rowTF; //Drag Grid_Row from Hierarchy to assign.
@@ -67,5 +68,11 @@ public class GridManager : MonoBehaviour
         instance.nameTF.text = square.name;
         instance.colTF.text = square.gridPosition.x.ToString();
         instance.rowTF.text = square.gridPosition.y.ToString();
+    }
+
+    public static void OnDown(Square square = null)
+    {
+        //instance.player.GetComponent<Player>().MovePlayer(square);
+        instance.player.GetComponent<Player>().LerpPlayer(square);
     }
 }
