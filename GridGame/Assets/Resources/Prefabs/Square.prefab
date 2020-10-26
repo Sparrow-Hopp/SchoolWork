@@ -121,3 +121,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4aab347693899d418cceea6eeb56540, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gridPosition: {x: 0, y: 0}
+  mouseOverMaterial: {fileID: 2100000, guid: da04e4198b374954b807ba214ca21d03, type: 2}
