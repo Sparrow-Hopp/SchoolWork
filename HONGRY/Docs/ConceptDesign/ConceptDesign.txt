@@ -1,0 +1,29 @@
+HONGY
+goal: eat healthy and don't let the timer run out
+controls:
+-click to move player(BLOBERT)
+animations:
+-player opens mouth to eat
+-player cries when time gets low
+-idle animation
+interactions:
+-carrot
+	-adds 1s to timer when eaten
+	-lose 2s to timer when missed
+	-linear movement
+-tomato
+	-adds 1s to timer when eaten
+	-lose 2s to timer when missed
+	-spiral movement to the left
+-avocado
+	-adds 1s to timer when  eaten
+	-lose 2s to timer when missed
+	-spiral movement to the right
+-ice cream
+	-lose 3s to timer when eaten
+	-gain/lose nothing when missed
+	-linear movement
+other noteworthy things:
+-foods get faster as time goes on
+-foods will move using for loop
+-need a big grid for spirals to work
