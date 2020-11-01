@@ -20,6 +20,8 @@ public class GridManager : MonoBehaviour
 
     // GridManager will appear to be a public static class.
     private static GridManager instance;
+
+    public GameObject player;
     
     void InitGridHolder()
     {
@@ -67,5 +69,11 @@ public class GridManager : MonoBehaviour
         instance.nameTF.text = square.name;
         instance.colTF.text = square.gridPosition.x.ToString();
         instance.rowTF.text = square.gridPosition.y.ToString();
+    }
+
+    public static void OnDown(Square square = null)
+    {
+        //instance.player.GetComponent<Player>().MovePlayer(square);
+        instance.player.GetComponent<Player>().LerpPlayer(square);
     }
 }
