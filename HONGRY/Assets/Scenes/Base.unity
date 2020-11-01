@@ -331,7 +331,7 @@ MonoBehaviour:
   cols: 9
   nameTF: {fileID: 1010083028}
   rowTF: {fileID: 1157629789}
-  colTF: {fileID: 463788498}
+  colTF: {fileID: 1096803700}
 --- !u!1 &463788496
 GameObject:
   m_ObjectHideFlags: 0
