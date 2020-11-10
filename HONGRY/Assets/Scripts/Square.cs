@@ -19,7 +19,7 @@ public class Square : MonoBehaviour
     //OnMouseOver() tells Unity what should happen when a mouse is over the object
     void OnMouseOver()
     {
-        Debug.Log(name); //unity implicitly defines "name" for you to get the "name" of the object.
+        //Debug.Log(name); //unity implicitly defines "name" for you to get the "name" of the object.
         GameManager.UpdateUI(this); //the keyword "this" refers to the current object, aka "this" object.
         spriteRenderer.material.color = mouseOverColor; //change color while mouse is over the object
     }

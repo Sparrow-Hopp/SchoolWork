@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject bounds;
     public float startX = 0;
     public float startY = 0;
+    public float instX, instY;
     public int rows, cols;
     public static int numOfEnemyTypes = 2;
     public float wait, next;
@@ -30,7 +31,8 @@ public class GameManager : MonoBehaviour
     public Text timerText;
     private float startTime;
     public string sceneName;
-    static int timer;
+    int timer;
+    static int timeElapsed;
     
     void InitGridHolder()
     {
@@ -41,34 +43,48 @@ public class GameManager : MonoBehaviour
 
     void BuildGrid()
     {
-        int i = 0, j = 0;
-        for (; i < rows; i++)
+        int tempi = 0, tempj = 0;
+        for (int i = 0; i < rows; i++)
         {
-            for (; j < cols; j++)
+            for (int j = 0; j < cols; j++)
             {
                 Square square = Instantiate(squarePrefab, gridHolder.transform);
                 Vector2 newPos = new Vector2(j + (spacer * j), i + (spacer * i));
                 square.transform.localPosition = newPos;
                 square.name = "Square_" + i + "_" + j;
                 square.gridPosition = new Vector2Int(i, j);
+                tempj = j + 1;
             }
+            tempi = i + 1;
         }
-        int r = -1;
         int c = -1;
-        int counterR = 2;
-        int counterC = 2;
-        while (counterR != 0)
+        int r;
+        for (r = -1; r <= tempi; r++)
         {
-            while (counterC != 0)
+            GameObject squareBound = Instantiate(bounds, gridHolder.transform);
+            Vector2 newPos = new Vector2(c + (spacer * c), r + (spacer * r));
+            squareBound.transform.localPosition = newPos;
+            squareBound.name = "Bound_" + r + "_" + c;
+        }
+        r = -1;
+        c = -1;
+        for (c = 0; c < tempj; c++)
+        {
+            do
             {
                 GameObject squareBound = Instantiate(bounds, gridHolder.transform);
                 Vector2 newPos = new Vector2(c + (spacer * c), r + (spacer * r));
                 squareBound.transform.localPosition = newPos;
-                c *= -1 + j;
-                counterC--;
-            }
-            r *= -1 + i;
-            counterR--;
+                squareBound.name = "Bound_" + r + "_" + c;
+                r = r * -1 + tempi - 1;
+            }while (r != -1);
+        }
+        for (r = -1; r <= tempi; r++)
+        {
+            GameObject squareBound = Instantiate(bounds, gridHolder.transform);
+            Vector2 newPos = new Vector2(c + (spacer * c), r + (spacer * r));
+            squareBound.transform.localPosition = newPos;
+            squareBound.name = "Bound_" + r + "_" + c;
         }
     }
 
@@ -82,6 +98,7 @@ public class GameManager : MonoBehaviour
         BuildGrid();
         instance = this; //the key to creating a singleton
         startTime = Time.time; 
+        timeElapsed = 20;
     }
 
     public static void UpdateUI(Square square = null)
@@ -101,21 +118,22 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        GameObject enemySpawn = enemy[Random.Range(0, numOfEnemyTypes)];
-        Vector2 respawnPos = new Vector2(0, 0);
-        next = Time.time + wait;//increasing the time until next spawn by however much the wait time is
-        Instantiate(enemySpawn, respawnPos, Quaternion.identity);//instantiate a new enemy
-        int dir = Random.Range(1, 8);//a random direction for the spawned enemy to move in
-        Food.move(enemySpawn, dir);//move the enemy in the specified direction
+        if (Time.time > next)
+        {
+            GameObject enemySpawn = enemy[Random.Range(0, numOfEnemyTypes)];
+            Vector2 spawnPos = new Vector2(instX, instY);
+            next = Time.time + wait;//increasing the time until next spawn by however much the wait time is
+            Instantiate(enemySpawn, spawnPos, Quaternion.identity);//instantiate a new enemy
+        }
         float t = Time.time - startTime;
 
         int seconds = (int)t;
 
-        timer = 10 - seconds;
+        timer = timeElapsed - seconds;
 
         timerText.text = timer.ToString();
 
-        if (timerText.text == "0")
+        if (timer <= 0)
             SceneManager.LoadScene (sceneName);
     }
 
@@ -127,6 +145,6 @@ public class GameManager : MonoBehaviour
 
     public static void addTime(int add)//adds time to the timer
     {
-        timer += add;
+        timeElapsed += add;
     }
 }

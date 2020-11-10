@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     Square target;
     bool isMoving = false;
-    public float speed = 5f;
+    public float speed = 20f;
 
     public void MovePlayer(Square square = null)
     {
@@ -38,15 +38,17 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    /*void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Junk")
         {
             GameManager.addTime(-3);
+            Food.addSpeed();
         }
         else if (col.gameObject.tag != "Square")
         {
             GameManager.addTime(3);
+            Food.addSpeed();
         }
-    }
+    }*/
 }

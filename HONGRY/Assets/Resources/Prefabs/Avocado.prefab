@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7147906684117345099}
   - component: {fileID: -611690421861650892}
   - component: {fileID: -3039795545365082811}
+  - component: {fileID: -8958427983558745005}
   m_Layer: 0
   m_Name: Avocado
   m_TagString: Avocado
@@ -69,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1616768213
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8e722fdcee1e57142991e20ecdda28bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -98,12 +99,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &-3039795545365082811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,3 +117,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e871102122847ab4b81ad67141f984e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 50
+--- !u!60 &-8958427983558745005
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760037030971438936}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.41, y: 0.63}
+    newSize: {x: 0.41, y: 0.63}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.114999995, y: 0.315}
+      - {x: -0.205, y: 0.195}
+      - {x: -0.205, y: -0.225}
+      - {x: -0.125, y: -0.315}
+      - {x: 0.105, y: -0.315}
+      - {x: 0.125, y: -0.305}
+      - {x: 0.205, y: -0.255}
+      - {x: 0.205, y: 0.225}
+      - {x: 0.175, y: 0.315}
