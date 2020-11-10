@@ -37,4 +37,16 @@ public class Player : MonoBehaviour
             LerpPlayer();
         }
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Junk")
+        {
+            GameManager.addTime(-3);
+        }
+        else if (col.gameObject.tag != "Square")
+        {
+            GameManager.addTime(3);
+        }
+    }
 }

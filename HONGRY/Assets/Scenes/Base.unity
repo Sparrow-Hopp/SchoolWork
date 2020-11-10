@@ -329,10 +329,17 @@ MonoBehaviour:
   startY: -4
   rows: 9
   cols: 9
+  wait: 2
+  next: 0
+  enemy:
+  - {fileID: 0}
+  - {fileID: 0}
   nameTF: {fileID: 1010083028}
   rowTF: {fileID: 1157629789}
   colTF: {fileID: 1096803700}
   player: {fileID: 1948645118}
+  timerText: {fileID: 0}
+  sceneName: 
 --- !u!1 &463788496
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,13 +20,13 @@ public class Square : MonoBehaviour
     void OnMouseOver()
     {
         Debug.Log(name); //unity implicitly defines "name" for you to get the "name" of the object.
-        GridManager.UpdateUI(this); //the keyword "this" refers to the current object, aka "this" object.
+        GameManager.UpdateUI(this); //the keyword "this" refers to the current object, aka "this" object.
         spriteRenderer.material.color = mouseOverColor; //change color while mouse is over the object
     }
 
     void OnMouseExit()
     {
-        GridManager.UpdateUI();
+        GameManager.UpdateUI();
         spriteRenderer.material.color = originalColor;
     }
 
@@ -45,6 +45,6 @@ public class Square : MonoBehaviour
 
     void OnMouseDown()
     {
-        GridManager.OnDown(this);
+        GameManager.OnDown(this);
     }
 }
