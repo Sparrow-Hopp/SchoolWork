@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] //hides the following public variable (up to the statement terminator ";") in the Inspector
     public GameObject gridHolder;
     public Square squarePrefab; //assign in Inspector on Grid_Manager to Assets/Prefabs/Square
+    public GameObject bounds;
     public float startX = 0;
     public float startY = 0;
     public int rows, cols;
@@ -40,9 +41,10 @@ public class GameManager : MonoBehaviour
 
     void BuildGrid()
     {
-        for (int i = 0; i < rows; i++)
+        int i = 0, j = 0;
+        for (; i < rows; i++)
         {
-            for (int j = 0; j < cols; j++)
+            for (; j < cols; j++)
             {
                 Square square = Instantiate(squarePrefab, gridHolder.transform);
                 Vector2 newPos = new Vector2(j + (spacer * j), i + (spacer * i));
@@ -50,6 +52,23 @@ public class GameManager : MonoBehaviour
                 square.name = "Square_" + i + "_" + j;
                 square.gridPosition = new Vector2Int(i, j);
             }
+        }
+        int r = -1;
+        int c = -1;
+        int counterR = 2;
+        int counterC = 2;
+        while (counterR != 0)
+        {
+            while (counterC != 0)
+            {
+                GameObject squareBound = Instantiate(bounds, gridHolder.transform);
+                Vector2 newPos = new Vector2(c + (spacer * c), r + (spacer * r));
+                squareBound.transform.localPosition = newPos;
+                c *= -1 + j;
+                counterC--;
+            }
+            r *= -1 + i;
+            counterR--;
         }
     }
 
@@ -86,11 +105,13 @@ public class GameManager : MonoBehaviour
         Vector2 respawnPos = new Vector2(0, 0);
         next = Time.time + wait;//increasing the time until next spawn by however much the wait time is
         Instantiate(enemySpawn, respawnPos, Quaternion.identity);//instantiate a new enemy
+        int dir = Random.Range(1, 8);//a random direction for the spawned enemy to move in
+        Food.move(enemySpawn, dir);//move the enemy in the specified direction
         float t = Time.time - startTime;
 
         int seconds = (int)t;
 
-        timer = 250 - seconds;
+        timer = 10 - seconds;
 
         timerText.text = timer.ToString();
 
