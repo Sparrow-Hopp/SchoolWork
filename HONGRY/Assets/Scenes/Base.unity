@@ -327,7 +327,7 @@ MonoBehaviour:
   gridHolder: {fileID: 0}
   squarePrefab: {fileID: 6483864357525839398, guid: a745fc0aff06bed4089820b52ea4e4d4,
     type: 3}
-  bounds: {fileID: 0}
+  bounds: {fileID: 6139178271701612780, guid: c1a183f67b92edb42b5db761d66643a0, type: 3}
   startX: -3
   startY: -4
   rows: 9
@@ -335,14 +335,14 @@ MonoBehaviour:
   wait: 2
   next: 0
   enemy:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7338849177774622810, guid: ed384cd3279724141a355174d60b8e33, type: 3}
+  - {fileID: 1092351289998211458, guid: 59653051f268c8245aed6d486dc8361d, type: 3}
   nameTF: {fileID: 1010083028}
   rowTF: {fileID: 1157629789}
   colTF: {fileID: 1096803700}
   player: {fileID: 1948645118}
   timerText: {fileID: 1312488160}
-  sceneName: 
+  sceneName: Game_Over
 --- !u!1 &463788496
 GameObject:
   m_ObjectHideFlags: 0
