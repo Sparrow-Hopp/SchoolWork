@@ -8,6 +8,10 @@ public class Player : MonoBehaviour
     bool isMoving = false;
     public float speed = 20f;
 
+    public static bool getIsMoving(Player p)
+    {
+        return p.isMoving;
+    }
     public void MovePlayer(Square square = null)
     {
         gameObject.transform.position = square.transform.position;

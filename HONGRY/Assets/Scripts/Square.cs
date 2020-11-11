@@ -16,10 +16,10 @@ public class Square : MonoBehaviour
     //Get the GameObject’s spriteRenderer to access the GameObject’s material and color
     SpriteRenderer spriteRenderer; //A spriteRenderer to get and swap colors
 
-    public bool isCorner = false;
-    public bool canMoveTo = false;
+    private bool isCorner = false;
+    private bool canMoveTo = false;
 
-    public static void setCorner(Square s, bool v)
+    public static void setCorner(Square s, bool v)//methods to set the variables
     {
         s.isCorner = v;
     }
@@ -29,7 +29,7 @@ public class Square : MonoBehaviour
         s.canMoveTo = v;
     }
 
-    public static bool getCorner(Square s)
+    public static bool getCorner(Square s)//accessor methods
     {
         return s.isCorner;
     }
