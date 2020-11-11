@@ -16,6 +16,29 @@ public class Square : MonoBehaviour
     //Get the GameObject’s spriteRenderer to access the GameObject’s material and color
     SpriteRenderer spriteRenderer; //A spriteRenderer to get and swap colors
 
+    public bool isCorner = false;
+    public bool canMoveTo = false;
+
+    public static void setCorner(Square s, bool v)
+    {
+        s.isCorner = v;
+    }
+
+    public static void setCanMoveTo(Square s, bool v)
+    {
+        s.canMoveTo = v;
+    }
+
+    public static bool getCorner(Square s)
+    {
+        return s.isCorner;
+    }
+
+    public static bool getCanMoveTo(Square s)
+    {
+        return s.canMoveTo;
+    }
+
     //OnMouseOver() tells Unity what should happen when a mouse is over the object
     void OnMouseOver()
     {

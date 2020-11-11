@@ -53,6 +53,8 @@ public class GameManager : MonoBehaviour
                 square.transform.localPosition = newPos;
                 square.name = "Square_" + i + "_" + j;
                 square.gridPosition = new Vector2Int(i, j);
+                Square.setCanMoveTo(square, moveable(i, j));
+                Square.setCorner(square, isCorner(i, j));
                 tempj = j + 1;
             }
             tempi = i + 1;
@@ -137,14 +139,28 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene (sceneName);
     }
 
-    public static void OnDown(Square square = null)
+    public static void OnDown(Square square)
     {
         //instance.player.GetComponent<Player>().MovePlayer(square);
-        instance.player.GetComponent<Player>().LerpPlayer(square);
+        if (Square.getCanMoveTo(square) == false);
+        else
+        {
+            instance.player.GetComponent<Player>().LerpPlayer(square);
+        }
     }
 
     public static void addTime(int add)//adds time to the timer
     {
         timeElapsed += add;
+    }
+
+    bool isCorner(int i, int j)
+    {
+        return ((i == 0 || i == rows - 1) && (j == 0 || j == cols - 1));//if the square is a corner
+    }
+
+    bool moveable(int i, int j)
+    {
+        return ((i == 0 || i == rows - 1 || i == rows / 2) && (j == 0 || j == cols - 1 || j == cols / 2));//if you can move to the square
     }
 }

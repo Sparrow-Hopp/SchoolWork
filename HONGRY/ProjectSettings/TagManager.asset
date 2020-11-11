@@ -9,6 +9,7 @@ TagManager:
   - Tomato
   - Carrot
   - Square
+  - Bounds
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Square
+  - Food
   - 
   - 
   - 

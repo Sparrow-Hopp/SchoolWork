@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
-    public static float speed = 3;
+    public static float speed = 0.1f;
     int dir;
 
     void Start()
@@ -95,6 +95,6 @@ public class Food : MonoBehaviour
 
     public static void addSpeed()
     {
-        speed += 1;
+        speed += 0.05f;
     }
 }

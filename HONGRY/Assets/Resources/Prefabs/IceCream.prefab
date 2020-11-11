@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -5589384262247998080}
   - component: {fileID: 2129833885337590692}
   - component: {fileID: -8014174264712208679}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: IceCream
   m_TagString: Junk
   m_Icon: {fileID: 0}
@@ -117,7 +117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e871102122847ab4b81ad67141f984e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
 --- !u!60 &-8014174264712208679
 PolygonCollider2D:
   m_ObjectHideFlags: 0
