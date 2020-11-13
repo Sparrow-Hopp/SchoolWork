@@ -339,6 +339,8 @@ MonoBehaviour:
   enemy:
   - {fileID: 7338849177774622810, guid: ed384cd3279724141a355174d60b8e33, type: 3}
   - {fileID: 1092351289998211458, guid: 59653051f268c8245aed6d486dc8361d, type: 3}
+  - {fileID: 1760037030971438936, guid: 05ef4bf835f95fe408963a18516dd39e, type: 3}
+  - {fileID: 4662398415244316452, guid: 8da5c49c8e006c04fa2a8b929ffb9024, type: 3}
   nameTF: {fileID: 1010083028}
   rowTF: {fileID: 1157629789}
   colTF: {fileID: 1096803700}

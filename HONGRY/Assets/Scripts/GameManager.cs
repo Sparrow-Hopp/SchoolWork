@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public float startY = 0;
     public float instX, instY;
     public int rows, cols;
-    public static int numOfEnemyTypes = 2;
+    public static int numOfEnemyTypes = 4;
     public float wait, next;
     readonly float spacer = 0.05f; //readonly means what it says: spacer is not writable during runtime
     public GameObject [] enemy = new GameObject [numOfEnemyTypes];
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
         BuildGrid();
         instance = this; //the key to creating a singleton
         startTime = Time.time; 
-        timeElapsed = 20;
+        timeElapsed = 50;
     }
 
     public static void UpdateUI(Square square = null)

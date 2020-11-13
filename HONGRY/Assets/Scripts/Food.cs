@@ -6,7 +6,7 @@ public class Food : MonoBehaviour
 {
     public static float speed = 0.1f;
     int dir;
-
+    //float xDir = 0, yDir = 0;
     void Start()
     {
         dir = Random.Range(1, 8);//a random direction for the spawned enemy to move in
@@ -55,6 +55,34 @@ public class Food : MonoBehaviour
                     break;
             }
             Vector2 direction = new Vector2(xMove, yMove);
+            GetComponent<Rigidbody2D>().AddForce(direction * speed);
+        }
+        else if (this.gameObject.tag == "Tomato")//contents of this else if statement are taken from https://forum.unity.com/threads/make-object-move-in-an-expanding-spiral.47342/
+        {
+            float circleSpeed = 1;
+            float circleSize = 1;
+            float circleGrowSpeed = 0.1f;
+ 
+            float xPos = Mathf.Sin(Time.time * circleSpeed) * circleSize;
+            float yPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
+ 
+            circleSize += circleGrowSpeed;
+
+            Vector2 direction = new Vector2(xPos, yPos);
+            GetComponent<Rigidbody2D>().AddForce(direction * speed);
+        }
+        else if (this.gameObject.tag == "Avocado")//same thing as previous else if statement except xPos and yPos are swapped
+        {
+            float circleSpeed = 1;
+            float circleSize = 1;
+            float circleGrowSpeed = 0.1f;
+ 
+            float xPos = Mathf.Sin(Time.time * circleSpeed) * circleSize;
+            float yPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
+ 
+            circleSize += circleGrowSpeed;
+
+            Vector2 direction = new Vector2(xPos, yPos);
             GetComponent<Rigidbody2D>().AddForce(direction * speed);
         }
     }

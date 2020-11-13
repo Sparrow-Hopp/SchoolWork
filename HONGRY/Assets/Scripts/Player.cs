@@ -5,9 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Square target;
-    bool isMoving = false;
+    bool isMoving = false, munch = false;
     public float speed = 20f;
 
+    public static bool getMunch(Player p)
+    {
+        return p.munch;
+    }
     public static bool getIsMoving(Player p)
     {
         return p.isMoving;
@@ -21,15 +25,20 @@ public class Player : MonoBehaviour
     {
         if (isMoving == false)
         {
+            GetComponent<Collider2D>().enabled = !GetComponent<Collider2D>().enabled;
+            Debug.Log("Collider.enabled = " + GetComponent<Collider2D>().enabled);
             target = square;
             isMoving = true;
         }
         else if (isMoving == true)
         {
+            
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
             if (transform.position == target.transform.position)
-            {
+            {                
                 isMoving = false;
+                GetComponent<Collider2D>().enabled = !GetComponent<Collider2D>().enabled;
+                Debug.Log("Collider.enabled = " + GetComponent<Collider2D>().enabled);
             }
         }
     }
@@ -40,19 +49,15 @@ public class Player : MonoBehaviour
         {
             LerpPlayer();
         }
+        munch = false;
     }
 
-    /*void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Junk")
+        if (col.gameObject.tag != "Bounds" && col.gameObject.tag != "Square")
         {
-            GameManager.addTime(-3);
-            Food.addSpeed();
+            munch = true;
         }
-        else if (col.gameObject.tag != "Square")
-        {
-            GameManager.addTime(3);
-            Food.addSpeed();
-        }
-    }*/
+    }
+
 }

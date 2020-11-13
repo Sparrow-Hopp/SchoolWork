@@ -9,7 +9,7 @@ public class PlayerAnimation : MonoBehaviour
     SpriteRenderer mySpriteRenderer;
     public Player player;
     //bool facingRight = true;
-    bool isMoving;
+    bool isMoving, munch;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,7 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         isMoving = Player.getIsMoving(player);
+        munch = Player.getMunch(player);
         CheckAnimation();
         //CheckFlip();
     }
@@ -29,6 +30,7 @@ public class PlayerAnimation : MonoBehaviour
     void CheckAnimation()
     {
         myAnimator.SetBool("isMoving", isMoving);
+        myAnimator.SetBool("munch", munch);
     }
 
     /*void CheckFlip()
