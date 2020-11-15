@@ -19,72 +19,40 @@ public class Food : MonoBehaviour
 
     void move()
     {
-        
-        if (this.gameObject.tag == "Junk" || this.gameObject.tag == "Carrot")
+        float xMove = 0f, yMove = 0f;
+        switch (dir)
         {
-            float xMove = 0f, yMove = 0f;
-            switch (dir)
-            {
-                case 1:
-                    yMove = 1f;
-                    break;
-                case 2:
-                    xMove = 1f;
-                    yMove = 1f;
-                    break;
-                case 3:
-                    xMove = 1f;
-                    break;
-                case 4:
-                    xMove = 1f;
-                    yMove = -1f;
-                    break;
-                case 5:
-                    yMove = -1f;
-                    break;
-                case 6:
-                    xMove = -1f;
-                    yMove = -1f;
-                    break;
-                case 7:
-                    xMove = -1f;
-                    break;
-                case 8:
-                    xMove = -1f;
-                    yMove = 1f;
-                    break;
-            }
-            Vector2 direction = new Vector2(xMove, yMove);
-            GetComponent<Rigidbody2D>().AddForce(direction * speed);
+            case 1:
+                yMove = 1f;
+                break;
+            case 2:
+                xMove = 1f;
+                yMove = 1f;
+                break;
+            case 3:
+                xMove = 1f;
+                break;
+            case 4:
+                xMove = 1f;
+                yMove = -1f;
+                break;
+            case 5:
+                yMove = -1f;
+                break;
+            case 6:
+                xMove = -1f;
+                yMove = -1f;
+                break;
+            case 7:
+                xMove = -1f;
+                break;
+            case 8:
+                xMove = -1f;
+                yMove = 1f;
+                break;
         }
-        else if (this.gameObject.tag == "Tomato")//contents of this else if statement are taken from https://forum.unity.com/threads/make-object-move-in-an-expanding-spiral.47342/
-        {
-            float circleSpeed = 1;
-            float circleSize = 1;
-            float circleGrowSpeed = 0.1f;
- 
-            float xPos = Mathf.Sin(Time.time * circleSpeed) * circleSize;
-            float yPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
- 
-            circleSize += circleGrowSpeed;
-
-            Vector2 direction = new Vector2(xPos, yPos);
-            GetComponent<Rigidbody2D>().AddForce(direction * speed);
-        }
-        else if (this.gameObject.tag == "Avocado")//same thing as previous else if statement except xPos and yPos are swapped
-        {
-            float circleSpeed = 1;
-            float circleSize = 1;
-            float circleGrowSpeed = 0.1f;
- 
-            float xPos = Mathf.Sin(Time.time * circleSpeed) * circleSize;
-            float yPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
- 
-            circleSize += circleGrowSpeed;
-
-            Vector2 direction = new Vector2(xPos, yPos);
-            GetComponent<Rigidbody2D>().AddForce(direction * speed);
-        }
+        Vector2 direction = new Vector2(xMove, yMove);
+        GetComponent<Rigidbody2D>().AddForce(direction * speed);
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -111,10 +79,17 @@ public class Food : MonoBehaviour
                 GameManager.addTime(-3);
                 Food.addSpeed();
             }
-            else
+            else if (this.gameObject.tag == "Avocado")
+            {
+                Debug.Log("HealthyCollision");
+                GameManager.addTime(5);
+                Food.addSpeed();
+            }
+            else if (this.gameObject.tag == "Tomato")
             {
                 Debug.Log("HealthyCollision");
                 GameManager.addTime(3);
+                Food.addSpeed();
                 Food.addSpeed();
             }
             Destroy(this.gameObject);

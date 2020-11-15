@@ -10,6 +10,7 @@ public class TimerScript : MonoBehaviour
     private float startTime;
     public string sceneName;
     int timer;
+    public static int seconds;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class TimerScript : MonoBehaviour
     {
         float t = Time.time - startTime;
 
-        int seconds = (int)t;
+        seconds = (int)t;
 
         timer = 250 - seconds;
 
@@ -35,5 +36,10 @@ public class TimerScript : MonoBehaviour
     void addTime(int add)//adds time to the timer
     {
         timer += add;
+    }
+
+    public static int getSeconds()//accessor method for seconds
+    {
+        return seconds;
     }
 }

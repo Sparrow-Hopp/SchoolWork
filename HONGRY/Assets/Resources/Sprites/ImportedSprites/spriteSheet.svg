@@ -172,7 +172,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
      inkscape:cx="394.28571"
-     inkscape:cy="182.85714"
+     inkscape:cy="719.04762"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -898,45 +898,49 @@
          d="m 95.249999,158.75 c -1.007936,-2.51984 -2.165583,-4.98484 -3.023809,-7.55953 -0.522034,-1.5661 2.902992,-8.5571 1.511903,-11.33928 -0.514911,-1.02983 -2.267855,-1.91525 -2.267855,-3.02381 0,-2.06914 9.928262,3.88064 10.583332,4.53571 0.80332,0.80332 -0.73168,2.26786 1.5119,2.26786 0.25199,0 0.64327,0.22538 0.75596,0 0.22538,-0.45076 -0.22538,-1.06114 0,-1.5119 0.11269,-0.22539 0.50397,0 0.75595,0 0.25198,-0.50397 0.57777,-0.97737 0.75595,-1.51191 0.34638,-1.03913 -0.79228,-5.25533 0,-6.04762 1.13676,-1.13675 8.32387,4.92628 9.07143,6.04762 0.41034,0.61551 1.01949,2.53139 1.51191,3.02381 1.37888,1.37889 2.23674,-2.23674 2.26785,-2.26786 0.35636,-0.35636 1.15555,0.35636 1.51191,0 0.37797,-0.37797 -0.37798,-1.88988 0,-2.26785 0.17818,-0.17818 0.57777,0.17818 0.75595,0 0.14861,-0.14861 0.53526,-4.00046 2.26786,-2.26786 0.67105,0.67105 0.28844,3.6007 0.75595,4.53571 0.31874,0.63748 1.28652,0.83576 1.5119,1.51191 0.55497,1.6649 0.62601,2.00796 1.51191,3.77976 1.83416,3.66833 -2.62486,5.29167 -5.29167,5.29167 -3.45143,0 -0.99671,-0.49836 -3.02381,-1.51191 -0.62939,-0.3147 -2.5443,0.47951 -3.02381,0 -0.17818,-0.17818 0.17818,-0.57777 0,-0.75595 -0.61198,-0.61198 -5.08614,0 -6.04762,0 -2.01508,0 -6.55224,-0.88162 -8.31547,0 -0.96962,0.48481 -2.017319,1.93236 -3.023812,2.26786 -0.478105,0.15936 -1.061141,-0.22538 -1.511903,0 -0.225383,0.11269 0.178178,0.57777 0,0.75595 -0.723847,0.72384 -1.376828,-0.32468 -1.511906,0.75595 -0.218784,1.75027 0,3.52778 0,5.29167"
          id="path998" />
     </g>
-    <ellipse
-       inkscape:export-ydpi="15.588752"
-       inkscape:export-xdpi="15.588752"
-       inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
-       ry="38.111595"
-       rx="26.772308"
-       cy="132.6731"
-       cx="119.95924"
-       id="path1008"
-       style="opacity:0.995;fill:#006500;fill-opacity:1;stroke:#ffffff;stroke-width:0.399911" />
-    <ellipse
-       inkscape:export-ydpi="15.588752"
-       inkscape:export-xdpi="15.588752"
-       inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
-       ry="41.550385"
-       rx="33.240307"
-       cy="155.75319"
-       cx="119.41887"
-       id="path1010"
-       style="opacity:0.995;fill:#006500;fill-opacity:1;stroke:none;stroke-width:0.416157" />
-    <ellipse
-       inkscape:export-ydpi="15.588752"
-       inkscape:export-xdpi="15.588752"
-       inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
-       ry="48.758926"
-       rx="31.750002"
-       cy="143.25298"
-       cx="119.44048"
-       id="path1012"
-       style="opacity:0.995;fill:#006500;fill-opacity:1;stroke:none;stroke-width:0.440591" />
-    <ellipse
-       inkscape:export-ydpi="15.588752"
-       inkscape:export-xdpi="15.588752"
-       inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
-       ry="14.696813"
-       rx="13.562884"
-       cy="158.37201"
-       cx="117.92857"
-       id="path1006"
-       style="opacity:0.995;fill:#866500;fill-opacity:1;stroke:none;stroke-width:0.353516" />
+    <g
+       transform="translate(-372.68452,-123.22024)"
+       id="g1592">
+      <ellipse
+         style="opacity:0.995;fill:#006500;fill-opacity:1;stroke:#ffffff;stroke-width:0.399911"
+         id="path1008"
+         cx="119.95924"
+         cy="132.6731"
+         rx="26.772308"
+         ry="38.111595"
+         inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
+         inkscape:export-xdpi="15.588752"
+         inkscape:export-ydpi="15.588752" />
+      <ellipse
+         style="opacity:0.995;fill:#006500;fill-opacity:1;stroke:none;stroke-width:0.416157"
+         id="path1010"
+         cx="119.41887"
+         cy="155.75319"
+         rx="33.240307"
+         ry="41.550385"
+         inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
+         inkscape:export-xdpi="15.588752"
+         inkscape:export-ydpi="15.588752" />
+      <ellipse
+         style="opacity:0.995;fill:#006500;fill-opacity:1;stroke:none;stroke-width:0.440591"
+         id="path1012"
+         cx="119.44048"
+         cy="143.25298"
+         rx="31.750002"
+         ry="48.758926"
+         inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
+         inkscape:export-xdpi="15.588752"
+         inkscape:export-ydpi="15.588752" />
+      <ellipse
+         style="opacity:0.995;fill:#866500;fill-opacity:1;stroke:none;stroke-width:0.353516"
+         id="path1006"
+         cx="117.92857"
+         cy="158.37201"
+         rx="13.562884"
+         ry="14.696813"
+         inkscape:export-filename="C:\Users\leahk\Source\Repos\tempest-hopp-git\HONGRY\Assets\Resources\Sprites\Avocado.png"
+         inkscape:export-xdpi="15.588752"
+         inkscape:export-ydpi="15.588752" />
+    </g>
   </g>
 </svg>
