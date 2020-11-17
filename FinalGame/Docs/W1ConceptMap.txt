@@ -1,0 +1,10 @@
+The game is going to be a dungeon crawler centered around magic.
+
+-select different classes (?)
+-pixel art (maybe 32 bit)
+-range magic, close quarters magic, and support magic
+-enemies get harder the higher level you go
+-earn points per enemy defeated (xp)
+-unlock spells as you level up
+-enemies are plants (some ranged some melee)
+-story incorporated into tutorial (?)
