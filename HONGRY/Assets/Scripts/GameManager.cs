@@ -137,6 +137,8 @@ public class GameManager : MonoBehaviour
 
         if (timer <= 0)
             SceneManager.LoadScene (sceneName);
+        PlayerPrefs.SetInt("Time Survived", seconds);//keeps the data in seconds so to access it during game over
+        //Debug.Log(PlayerPrefs.GetInt("Time Survived"));
     }
 
     public static void OnDown(Square square)

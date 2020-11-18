@@ -10,7 +10,7 @@ public class Survival_Time : MonoBehaviour
 
     void Start()
     {
-        seconds = TimerScript.getSeconds();
+        seconds = PlayerPrefs.GetInt("Time Survived");
         timerText.text = seconds.ToString();
     }
 }
