@@ -8,3 +8,6 @@ The game is going to be a dungeon crawler centered around magic.
 -unlock spells as you level up
 -enemies are plants (some ranged some melee)
 -story incorporated into tutorial (?)
+
+-levels infinitely generate
+-at different levels scenery changes and enemies change
