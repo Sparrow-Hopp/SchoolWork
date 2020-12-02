@@ -38,6 +38,7 @@ LEVELS
 		-different types of enemies have different attacks
 			-melee enemies move towards you
 			-ranged enemies don't move
+	-previous level box gets deleted when new level box is created
 
 GAME OVER SCENE
 
