@@ -4,10 +4,60 @@ The game is going to be a dungeon crawler centered around magic.
 -pixel art (maybe 32 bit)
 -range magic, close quarters magic, and support magic
 -enemies get harder the higher level you go
+	-enemy level is randomly generated based on your level (always at max 2 above)
+	-enemy stats scale with level
 -earn points per enemy defeated (xp)
 -unlock spells as you level up
 -enemies are plants (some ranged some melee)
 -story incorporated into tutorial (?)
 
 -levels infinitely generate
--at different levels scenery changes and enemies change
+	-at different levels scenery changes and enemies change
+    		-forest
+   		-desert
+   		-mountain/snow
+   		-castle w/ final boss?
+   	-each scenery is a different scene so that enemies can change, player stats will stay the way they are
+-shop function? (instead of level based?)
+	-buy health potions, mana potions, increased movement speed, etc.
+
+TUTORIAL
+
+	-use signs/"npcs" to tell the player the core mechanics
+		-on collision with signs, if player presses a button it reads out a text blurb, press a key to close it
+	-introduce movement mechanics
+	-present dummy enemies the player can practice killing
+		-dummy enemies give no xp
+	-tell the player the base story and direct them to the main game
+
+
+LEVELS
+
+	-enemies spawn in random position inside spawn box
+		-different types of enemies have different movement patterns
+		-different types of enemies have different attacks
+			-melee enemies move towards you
+			-ranged enemies don't move
+
+GAME OVER SCENE
+
+	-tell the player they died
+	-tell the player what level they were and how many enemies they defeated
+	-ask them if they want to play again
+
+
+OUTSTANDING QUESTIONS (will write answers under question):
+
+-could I use art that isn't my own if I'm not capable of creating art in the style I want?
+	-some premade sprites
+	-no more than half custom sprites
+-how do I make a level infinitely generate?
+	-generate more level
+		-create block prefab
+	-have prefab of entire area
+		-call it "room"
+		-has collider on top and bottom
+		-on collision enter spawn in new block
+	-maybe delete old room to conserve data space
+		-use lists?
+-how to create a health/mana UI that changes scale with health/mana lost/gained?
