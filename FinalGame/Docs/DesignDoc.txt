@@ -20,6 +20,8 @@ The game is going to be a dungeon crawler centered around magic.
 			-final boss uses magic spells character has gained
    	-each scenery is a different scene so that enemies can change, player stats will stay the way they are
 
+SPELLS
+
 TUTORIAL
 
 	-use signs/"npcs" to tell the player the core mechanics
