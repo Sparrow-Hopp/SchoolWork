@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 665335724}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e64ffbf89f820347b9dea9966d28f14, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d0e3ab0c5627914fbb11c1d605fcdcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: GameOver
@@ -507,7 +507,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1315320699}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -661,12 +661,12 @@ PrefabInstance:
     - target: {fileID: 5142395417583954765, guid: 62fde607cfd4b6e419c69a2d4586fea8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -657
+      value: -450
       objectReference: {fileID: 0}
     - target: {fileID: 5142395417583954765, guid: 62fde607cfd4b6e419c69a2d4586fea8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -389
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 5142395417583954765, guid: 62fde607cfd4b6e419c69a2d4586fea8,
         type: 3}
