@@ -16,8 +16,8 @@ The game is going to be a dungeon crawler centered around magic.
 	-at different levels scenery changes and enemies change
     		-forest
    		-desert
-   		-mountain/snow
-   		-castle w/ final boss?
+   		-mountain/snow with a final boss
+			-final boss uses magic spells character has gained
    	-each scenery is a different scene so that enemies can change, player stats will stay the way they are
 
 TUTORIAL
@@ -61,3 +61,4 @@ OUTSTANDING QUESTIONS (will write answers under question):
 	-maybe delete old room to conserve data space
 		-use lists?
 -how to create a health/mana UI that changes scale with health/mana lost/gained?
+-how to make rolling animation smoother?
