@@ -9,6 +9,7 @@ The game is going to be a dungeon crawler centered around magic.
 -earn points per enemy defeated (xp)
 -unlock spells as you level up
 -enemies are plants (some ranged some melee)
+	-only one enemy type per level, but difficulty rating can change
 -story incorporated into tutorial (?)
 
 -levels infinitely generate
@@ -18,8 +19,6 @@ The game is going to be a dungeon crawler centered around magic.
    		-mountain/snow
    		-castle w/ final boss?
    	-each scenery is a different scene so that enemies can change, player stats will stay the way they are
--shop function? (instead of level based?)
-	-buy health potions, mana potions, increased movement speed, etc.
 
 TUTORIAL
 
@@ -37,7 +36,7 @@ LEVELS
 		-different types of enemies have different movement patterns
 		-different types of enemies have different attacks
 			-melee enemies move towards you
-			-ranged enemies don't move
+			-ranged enemies move in random pattern, but attacks go towards you (not seeking)
 	-previous level box gets deleted when new level box is created
 
 GAME OVER SCENE
