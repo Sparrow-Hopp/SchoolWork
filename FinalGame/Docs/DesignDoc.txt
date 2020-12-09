@@ -17,10 +17,8 @@ The game is going to be a dungeon crawler centered around magic.
     		-forest
    		-desert
    		-mountain/snow with a final boss
-			-final boss uses magic spells character has gained
+			-final boss uses same magic spells as character
    	-each scenery is a different scene so that enemies can change, player stats will stay the way they are
-
-SPELLS
 
 TUTORIAL
 
@@ -62,5 +60,9 @@ OUTSTANDING QUESTIONS (will write answers under question):
 		-on collision enter spawn in new block
 	-maybe delete old room to conserve data space
 		-use lists?
--how to create a health/mana UI that changes scale with health/mana lost/gained?
+-how to create a health/mana UI that changes scale with health lost/gained?
+	-masking
+	-adjusting the UI slider
+	-image fill
 -how to make rolling animation smoother?
+	-try adding keyframes
