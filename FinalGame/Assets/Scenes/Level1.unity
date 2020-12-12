@@ -121,26 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &106304929 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7167429924963135847, guid: 9d39896d9991ce245b5e498a70c77108,
-    type: 3}
-  m_PrefabInstance: {fileID: 7167429924926039238}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &106304930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106304929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aeb16305344cb6f4e8fd109e4567cf10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Level2
-  levelReq: 5
 --- !u!1 &245127522
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +204,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &811818596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811818597}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811818597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811818596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.068012, y: -7.209461, z: -143.41989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1416161070476046960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -291,7 +301,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3117415858029205918, guid: 6e7c1cd626e915d479f075fea6251a29, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6e7c1cd626e915d479f075fea6251a29, type: 3}
 --- !u!1001 &7167429924926039238
 PrefabInstance:
@@ -304,6 +315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 757924089995492256, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_Name
+      value: Bottomwall
       objectReference: {fileID: 0}
     - target: {fileID: 889286109321500706, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
@@ -375,10 +391,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3041202103491890190, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_Name
+      value: OldRoomDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 3278098215406806128, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278098215406806128, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_Name
+      value: LeftWall
       objectReference: {fileID: 0}
     - target: {fileID: 5333180406745835659, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
@@ -405,10 +431,30 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5856876407886702363, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_Name
+      value: NewRoomGenerate
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167429924948423920, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167429924948423920, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 53.27508
+      objectReference: {fileID: 0}
     - target: {fileID: 7167429924948423925, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167429924948423925, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_Name
+      value: RightWall
       objectReference: {fileID: 0}
     - target: {fileID: 7167429924963135847, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
