@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -53056776978573328}
   - component: {fileID: 7251193032077518374}
   - component: {fileID: 8796466548783846555}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: SpellParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

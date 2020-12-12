@@ -155,7 +155,7 @@ MonoBehaviour:
   - {fileID: 1942287344564827827, guid: 425333df2160f294188faeee7fa17f07, type: 3}
   - {fileID: 4569529764588585315, guid: cd67e7910789ced41967dd8134e93a0a, type: 3}
   - {fileID: 2282770161538380961, guid: 7fdaee5a25bc5ac41abd1ec838e577f7, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 1416161071839152332, guid: 6e7c1cd626e915d479f075fea6251a29, type: 3}
   health: 50
   damage: 30
 --- !u!4 &245127524
@@ -234,6 +234,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1066703165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 889286109321500706, guid: 9d39896d9991ce245b5e498a70c77108,
+    type: 3}
+  m_PrefabInstance: {fileID: 7167429924926039238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1066703166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066703165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb16305344cb6f4e8fd109e4567cf10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Level2
+  levelReq: 5
 --- !u!1001 &1416161070476046960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -241,6 +261,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1416161070510475791, guid: 6e7c1cd626e915d479f075fea6251a29,
+        type: 3}
+      propertyPath: orthographic size
+      value: 7.4657507
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416161070510476016, guid: 6e7c1cd626e915d479f075fea6251a29,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.775
+      objectReference: {fileID: 0}
     - target: {fileID: 1416161071839152305, guid: 6e7c1cd626e915d479f075fea6251a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -300,6 +330,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3830712078860326379, guid: 6e7c1cd626e915d479f075fea6251a29,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 3830712078860326379, guid: 6e7c1cd626e915d479f075fea6251a29,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.088
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3117415858029205918, guid: 6e7c1cd626e915d479f075fea6251a29, type: 3}
