@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 2282770161538380974}
   - component: {fileID: 2282770161538380975}
   - component: {fileID: 2282770161538380960}
+  - component: {fileID: -2663130914372153058}
+  - component: {fileID: 3168617794846619736}
+  - component: {fileID: -7495178649416438334}
   m_Layer: 9
   m_Name: snowman
   m_TagString: Untagged
@@ -101,3 +104,69 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-2663130914372153058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2282770161538380961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae8385ae1aa2e4ea6dde9475756415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3168617794846619736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2282770161538380961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c9c14f95ee63846b7d0bac4dbf81a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+--- !u!60 &-7495178649416438334
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2282770161538380961}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.64, y: 0.22}
+      - {x: 0.57, y: 0.35999998}
+      - {x: 0.47, y: 0.5}
+      - {x: 0.22999999, y: 0.64}
+      - {x: -0.22, y: 0.64}
+      - {x: -0.41, y: 0.53999996}
+      - {x: -0.57, y: 0.35999998}
+      - {x: -0.64, y: 0.24}
+      - {x: -0.64, y: -0.25}
+      - {x: -0.56, y: -0.35999998}
+      - {x: -0.45, y: -0.48}
+      - {x: -0.35, y: -0.59}
+      - {x: -0.19999999, y: -0.64}
+      - {x: 0.24, y: -0.64}
+      - {x: 0.5, y: -0.47}
+      - {x: 0.64, y: -0.24}

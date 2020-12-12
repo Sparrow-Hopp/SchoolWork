@@ -371,6 +371,32 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1033263879491993494, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1942287344564827827, guid: 425333df2160f294188faeee7fa17f07,
+        type: 3}
+    - target: {fileID: 1033263879491993494, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: lowXBound
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033263879491993494, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: lowYBound
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033263879491993494, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: hiXBound
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033263879491993494, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: hiYBound
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1261666127765176783, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_LocalPosition.x
