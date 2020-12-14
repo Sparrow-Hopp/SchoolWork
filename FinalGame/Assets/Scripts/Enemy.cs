@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public static int health;
+    public int health;
     int level, experience;
     void Start()
     {
@@ -19,10 +19,11 @@ public class Enemy : MonoBehaviour
         if (isDead())
         {
             GameManager.addExperience(experience);
+            Destroy(gameObject);
         }
     }
 
-    public static void removeHealth(int h)
+    void removeHealth(int h)
     {
         health -= h;
     }
@@ -30,5 +31,15 @@ public class Enemy : MonoBehaviour
     bool isDead()
     {
         return health <= 0;
+    }
+
+    void OnCollisionEnter2D (Collision2D col)
+    {
+        if (col.gameObject.tag == "Laser")
+        {
+            removeHealth(GameManager.damage);
+            //Debug.Log(health);
+            //Debug.Log(GameManager.damage);
+        }
     }
 }

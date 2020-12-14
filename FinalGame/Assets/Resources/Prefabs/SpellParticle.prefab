@@ -12,13 +12,12 @@ GameObject:
   - component: {fileID: 3355852184876418020}
   - component: {fileID: 3355852184876418021}
   - component: {fileID: 3355852184876418022}
-  - component: {fileID: 266236411903546559}
   - component: {fileID: -53056776978573328}
   - component: {fileID: 7251193032077518374}
   - component: {fileID: 8796466548783846555}
   m_Layer: 10
   m_Name: SpellParticle
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,8 +338,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
-      minScalar: 0.1
+      scalar: 1
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4809,19 +4808,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &266236411903546559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3355852184876418023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 273d73656d8dc3e40af5da20cbbb6b16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thrust: 0
 --- !u!61 &-53056776978573328
 BoxCollider2D:
   m_ObjectHideFlags: 0

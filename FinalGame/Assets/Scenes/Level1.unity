@@ -157,7 +157,6 @@ MonoBehaviour:
   - {fileID: 2282770161538380961, guid: 7fdaee5a25bc5ac41abd1ec838e577f7, type: 3}
   player: {fileID: 1416161071839152332, guid: 6e7c1cd626e915d479f075fea6251a29, type: 3}
   health: 50
-  damage: 30
 --- !u!4 &245127524
 Transform:
   m_ObjectHideFlags: 0

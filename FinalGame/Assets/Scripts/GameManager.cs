@@ -15,12 +15,13 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
-    public int health, damage;
-    public static int playerLevel, experience;
+    public int health;
+    public static int playerLevel, experience, damage;
 
 
     void Start()
     {
+        damage = 40;
         playerLevel = 1;
         health = 50;
         instance = this; //the key to creating a singleton

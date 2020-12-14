@@ -118,7 +118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261666127765176783}
   m_Layer: 0
-  m_Name: Level1Room
+  m_Name: LevelRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -714,3 +714,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beedc6467fcd82947a8a4b7e40b60cb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  lowXBound: 0
+  lowYBound: 0
+  hiXBound: 0
+  hiYBound: 0
