@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4954677854813858292, guid: 6e7c1cd626e915d479f075fea6251a29,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e7c1cd626e915d479f075fea6251a29, type: 3}
 --- !u!1 &931967442
@@ -672,6 +677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneName
       value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167429925374112905, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d39896d9991ce245b5e498a70c77108, type: 3}
