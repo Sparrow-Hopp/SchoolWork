@@ -319,6 +319,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665060991501160781, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: sceneName
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 665060991501160781, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: levelReq
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 757924089995492256, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_Layer

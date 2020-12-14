@@ -613,6 +613,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665060991501160781, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: sceneName
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665060991501160781, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: levelReq
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 889286109321500706, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_Name
@@ -678,12 +688,18 @@ PrefabInstance:
       propertyPath: sceneName
       value: Level1
       objectReference: {fileID: 0}
+    - target: {fileID: 4277150485830901332, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: levelReq
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7167429925374112905, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4277150485830901332, guid: 9d39896d9991ce245b5e498a70c77108, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9d39896d9991ce245b5e498a70c77108, type: 3}
 --- !u!1001 &1945803960
 PrefabInstance:

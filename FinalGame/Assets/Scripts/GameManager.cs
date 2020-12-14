@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
-    public int health;
+    int maxHealth;
+    public static double health;
     public static int playerLevel, experience, damage;
 
 
@@ -23,12 +24,15 @@ public class GameManager : MonoBehaviour
         damage = 40;
         playerLevel = 1;
         health = 50;
+        maxHealth = 50;
         instance = this; //the key to creating a singleton
     }
 
     void Update()
     {
         levelUp();
+        isDead();
+        //regen();
     }
 
     public static void addExperience(int e)
@@ -41,8 +45,32 @@ public class GameManager : MonoBehaviour
         if (experience >= xpReqs[playerLevel-1])
         {
             playerLevel++;
-            health += 50;
+            maxHealth += 50;
+            health = maxHealth;
             damage += 40;
+        }
+    }
+
+    public static void removeHealth(int h)
+    {
+        health-=h;
+        Debug.Log(health);
+    }
+
+    void isDead()
+    {
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("End");
+        }
+    }
+
+    void regen()
+    {
+        if (health == maxHealth);
+        else
+        {
+           health += 0.001; 
         }
     }
 }

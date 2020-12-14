@@ -197,6 +197,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665060991501160781, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: sceneName
+      value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 665060991501160781, guid: 9d39896d9991ce245b5e498a70c77108,
+        type: 3}
+      propertyPath: levelReq
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 889286109321500706, guid: 9d39896d9991ce245b5e498a70c77108,
         type: 3}
       propertyPath: m_Name

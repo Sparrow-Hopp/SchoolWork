@@ -5,19 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    int health;
+    int health, damage;
     int level, experience;
     void Start()
     {
         if (gameObject.tag == "Boss")
         {
             health = 1000;
+            damage = 100;
         }
         else
         {
             level = Random.Range(1, (GameManager.playerLevel + 2));
             health = 50 * level;
             experience = 5 * level;
+            damage = 5 * level;
         }
     }
 
@@ -54,8 +56,12 @@ public class Enemy : MonoBehaviour
         if (col.gameObject.tag == "Laser")
         {
             removeHealth(GameManager.damage);
-            Debug.Log(health);
-            Debug.Log(GameManager.damage);
+            //Debug.Log(health);
+            //Debug.Log(GameManager.damage);
+        }
+        else if (col.gameObject.tag == "Player")
+        {
+            GameManager.removeHealth(damage);
         }
     }
 }
