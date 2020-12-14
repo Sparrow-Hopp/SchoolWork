@@ -7,6 +7,7 @@ public class ChangePlaces : MonoBehaviour
     GameObject player, up, down, left, right;
     float yMove, xMove;
     Rigidbody2D rb;
+    public static int location;
     // Start is called before the first frame update
     void Start()
     {

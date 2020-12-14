@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: -2241685974345926239}
   - component: {fileID: -2982221435139220420}
   - component: {fileID: 4480553301942938455}
+  - component: {fileID: -5671653743470455709}
   m_Layer: 9
   m_Name: Cactus
   m_TagString: Enemy
@@ -237,3 +238,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!114 &-5671653743470455709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4569529764588585315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09787d2e19ef8741aa7466824d5e491, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wait: 2
+  next: 0
+  laserPrefab: {fileID: 8809145223294784446, guid: c0f654f0eccb3a44e8ef51a4e4f5830c,
+    type: 3}

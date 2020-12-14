@@ -6,11 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static int numOfEnemyTypes;
     public int [] xpReqs = new int [20];
-    public GameObject [] enemy = new GameObject [numOfEnemyTypes];
 
-    // GridManager will appear to be a public static class.
+    // GameManager will appear to be a public static class.
     private static GameManager instance;
 
     public GameObject player;
@@ -21,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(transform.gameObject);
         damage = 40;
         playerLevel = 1;
         health = 50;

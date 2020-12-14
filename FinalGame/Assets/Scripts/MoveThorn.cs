@@ -13,11 +13,12 @@ public class MoveThorn : MonoBehaviour
     void Start()
     {
         player = GameObject.Find ("Player");
+        transform.LookAt(player.transform, player.transform.position);
         //mouseScreenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
      	//mouse = new Vector2 (mouseScreenPosition.x, mouseScreenPosition.y);
         //float force = Mathf.Atan2(lookAt.y - this.transform.position.y, lookAt.x - this.transform.position.x) + offset;
         //float forceDir = (180 / Mathf.PI) * force;
-        GetComponent<Rigidbody2D>().AddForce((player.transform.position) * thrust);
+        GetComponent<Rigidbody2D>().AddForce(transform.up * thrust);
     }
 
     void OnCollisionEnter2D(Collision2D col)

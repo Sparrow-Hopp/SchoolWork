@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 0cbde1829de553a49b554957ddef0855
+  - enabled: 1
+    path: Assets/Scenes/Boss.unity
+    guid: 564c61214cbba80468218dd379617e63
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 80f0cad5513fdc5409585c40946a0d35
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: b00484e692467c8479df73a8569a607d
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 89484b92b1202d944a4512ff50303d1b
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: d6563b47d9bd98e439eace237b3dda25
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 2f4b380fdbc12084ab98c9cd5a41be1b
   m_configObjects: {}
