@@ -61,7 +61,12 @@ public class GameManager : MonoBehaviour
     {
         if (health <= 0)
         {
-            SceneManager.LoadScene("End");
+            if (SceneManager.GetActiveScene().name == "End");
+            else
+            {
+                PlayerPrefs.SetInt("Level", playerLevel);
+                SceneManager.LoadScene("End");
+            } 
         }
     }
 

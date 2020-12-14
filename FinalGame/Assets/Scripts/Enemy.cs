@@ -61,7 +61,7 @@ public class Enemy : MonoBehaviour
         }
         else if (col.gameObject.tag == "Player")
         {
-            col.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector3(0, -1, 0) * 100);
+            col.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector3(0, -100, 0) * 10);
             GameManager.removeHealth(damage);
         }
     }

@@ -9,7 +9,7 @@ public class SpawnEnemies : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 10; i++)
         {
             Instantiate(enemy, new Vector3(Random.Range(lowXBound, hiXBound) + transform.position.x, Random.Range(lowYBound, hiYBound) + transform.position.y, 0), transform.rotation);
         }
