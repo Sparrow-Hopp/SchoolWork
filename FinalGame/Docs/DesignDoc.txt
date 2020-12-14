@@ -32,7 +32,7 @@ LEVELS
 GAME OVER SCENE
 
 	-tell the player they died
-	-tell the player what level
+	-tell the player what level they were
 	-ask them if they want to play again
 
 
