@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health;
+    int health;
     int level, experience;
     void Start()
     {
@@ -39,8 +39,8 @@ public class Enemy : MonoBehaviour
         if (col.gameObject.tag == "Laser")
         {
             removeHealth(GameManager.damage);
-            //Debug.Log(health);
-            //Debug.Log(GameManager.damage);
+            Debug.Log(health);
+            Debug.Log(GameManager.damage);
         }
     }
 }
