@@ -14,10 +14,4 @@ public class SpawnEnemies : MonoBehaviour
             Instantiate(enemy, new Vector3(Random.Range(lowXBound, hiXBound) + transform.position.x, Random.Range(lowYBound, hiYBound) + transform.position.y, 0), transform.rotation);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

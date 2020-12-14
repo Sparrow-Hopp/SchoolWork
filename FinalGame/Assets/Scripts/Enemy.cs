@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour
         if (isDead())
         {
             GameManager.addExperience(experience);
+            Debug.Log(GameManager.experience);
             Destroy(gameObject);
         }
     }
