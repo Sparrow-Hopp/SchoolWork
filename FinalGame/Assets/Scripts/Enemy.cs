@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -8,9 +9,16 @@ public class Enemy : MonoBehaviour
     int level, experience;
     void Start()
     {
-        level = Random.Range(1, (GameManager.playerLevel + 2));
-        health = 50 * level;
-        experience = 5 * level;
+        if (gameObject.tag == "Boss")
+        {
+            health = 1000;
+        }
+        else
+        {
+            level = Random.Range(1, (GameManager.playerLevel + 2));
+            health = 50 * level;
+            experience = 5 * level;
+        }
     }
 
     // Update is called once per frame
@@ -18,9 +26,16 @@ public class Enemy : MonoBehaviour
     {
         if (isDead())
         {
-            GameManager.addExperience(experience);
-            Debug.Log(GameManager.experience);
-            Destroy(gameObject);
+            if (gameObject.tag == "Boss")
+            {
+                SceneManager.LoadScene("Victory");
+            }
+            else
+            {
+                GameManager.addExperience(experience);
+                Debug.Log(GameManager.experience);
+                Destroy(gameObject);
+            }
         }
     }
 
