@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     {
         if (gameObject.tag == "Boss")
         {
-            health = 1000;
+            health = 10000;
             damage = 100;
         }
         else

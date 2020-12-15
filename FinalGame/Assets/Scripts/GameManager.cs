@@ -10,11 +10,12 @@ public class GameManager : MonoBehaviour
 
     // GameManager will appear to be a public static class.
     private static GameManager instance;
+    public GameObject self;
 
     public GameObject player;
 
-    int maxHealth;
-    public static double health;
+    public static float maxHealth;
+    public static float health;
     public static int playerLevel, experience, damage;
 
 
@@ -30,6 +31,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        PlayerPrefs.SetFloat("curHealth", health);
+        PlayerPrefs.SetFloat("maxHealth", maxHealth);
         levelUp();
         isDead();
         //regen();
@@ -61,7 +64,10 @@ public class GameManager : MonoBehaviour
     {
         if (health <= 0)
         {
-            if (SceneManager.GetActiveScene().name == "End");
+            if (SceneManager.GetActiveScene().name == "End" || SceneManager.GetActiveScene().name == "Victory")
+            {
+                Destroy(self);
+            }
             else
             {
                 PlayerPrefs.SetInt("Level", playerLevel);
@@ -75,7 +81,17 @@ public class GameManager : MonoBehaviour
         if (health == maxHealth);
         else
         {
-           health += 0.001; 
+           health += 0.001f; 
         }
+    }
+
+    public static float getCurHealth()
+    {
+        return health;
+    }
+
+    public static float getMaxHealth()
+    {
+        return maxHealth;
     }
 }

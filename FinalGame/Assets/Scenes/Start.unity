@@ -531,7 +531,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: An evil wizard has invaded your village! Will you save them?
+  m_Text: An evil wizard has invaded your village! Will you save your village?
 --- !u!222 &2133396277
 CanvasRenderer:
   m_ObjectHideFlags: 0
