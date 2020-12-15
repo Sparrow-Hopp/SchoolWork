@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     // GameManager will appear to be a public static class.
     private static GameManager instance;
-    public GameObject self;
 
     public GameObject player;
 
@@ -23,6 +22,7 @@ public class GameManager : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
         damage = 40;
+        experience = 0;
         playerLevel = 1;
         health = 50;
         maxHealth = 50;
@@ -66,7 +66,8 @@ public class GameManager : MonoBehaviour
         {
             if (SceneManager.GetActiveScene().name == "End" || SceneManager.GetActiveScene().name == "Victory")
             {
-                Destroy(self);
+                Start();
+                Destroy(gameObject);
             }
             else
             {
