@@ -6,8 +6,6 @@ The game is going to be a dungeon crawler centered around magic.
 	-enemy level is randomly generated based on your level (always at max 2 above)
 	-enemy stats scale with level
 -earn points per enemy defeated (xp)
--enemies are plants (some ranged some melee)
-	-only one enemy type per level, but difficulty rating can change
 
 -levels infinitely generate
 	-at different levels scenery changes and enemies change
