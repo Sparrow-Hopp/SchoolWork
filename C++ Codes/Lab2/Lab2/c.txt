@@ -1,0 +1,193 @@
+ Average Percent Infected: 2.078
+Average Percent Dead: 0.038
+Date:       ISO Code: Location:                          Percent Infected: Percent Dead: 
+2021-02-07  AFG       Afghanistan                                 0.1         0.0
+2021-02-07  AGO       Angola                                      0.1         0.0
+2021-02-07  ALB       Albania                                     3.0         0.1
+2021-02-07  AND       Andorra                                    13.3         0.1
+2021-02-07  ARE       United Arab Emirates                        3.3         0.0
+2021-02-07  ARG       Argentina                                   4.4         0.1
+2021-02-07  ARM       Armenia                                     5.7         0.1
+2021-02-07  ATG       Antigua and Barbuda                         0.3         0.0
+2021-02-07  AUS       Australia                                   0.1         0.0
+2021-02-07  AUT       Austria                                     4.7         0.1
+2021-02-07  AZE       Azerbaijan                                  2.3         0.0
+2021-02-07  BDI       Burundi                                     0.0         0.0
+2021-02-07  BEL       Belgium                                     6.3         0.2
+2021-02-07  BEN       Benin                                       0.0         0.0
+2021-02-07  BFA       Burkina Faso                                0.1         0.0
+2021-02-07  BGD       Bangladesh                                  0.3         0.0
+2021-02-07  BGR       Bulgaria                                    3.2         0.1
+2021-02-07  BHR       Bahrain                                     6.3         0.0
+2021-02-07  BHS       Bahamas                                     2.1         0.0
+2021-02-07  BIH       Bosnia and Herzegovina                      3.8         0.1
+2021-02-07  BLR       Belarus                                     2.7         0.0
+2021-02-07  BLZ       Belize                                      3.0         0.1
+2021-02-07  BOL       Bolivia                                     2.0         0.1
+2021-02-07  BRA       Brazil                                      4.5         0.1
+2021-02-07  BRB       Barbados                                    0.6         0.0
+2021-02-07  BRN       Brunei                                      0.0         0.0
+2021-02-07  BTN       Bhutan                                      0.1         0.0
+2021-02-07  BWA       Botswana                                    1.0         0.0
+2021-02-07  CAF       Central African Republic                    0.1         0.0
+2021-02-07  CAN       Canada                                      2.1         0.1
+2021-02-07  CHE       Switzerland                                 6.1         0.1
+2021-02-07  CHL       Chile                                       3.9         0.1
+2021-02-07  CHN       China                                       0.0         0.0
+2021-02-07  CIV       Cote d'Ivoire                               0.1         0.0
+2021-02-07  CMR       Cameroon                                    0.1         0.0
+2021-02-07  COD       Democratic Republic of Congo                0.0         0.0
+2021-02-07  COG       Congo                                       0.1         0.0
+2021-02-07  COL       Colombia                                    4.2         0.1
+2021-02-07  COM       Comoros                                     0.4         0.0
+2021-02-07  CPV       Cape Verde                                  2.6         0.0
+2021-02-07  CRI       Costa Rica                                  3.9         0.1
+2021-02-07  CUB       Cuba                                        0.3         0.0
+2021-02-07  CYP       Cyprus                                      3.6         0.0
+2021-02-07  CZE       Czechia                                     9.7         0.2
+2021-02-07  DEU       Germany                                     2.7         0.1
+2021-02-07  DJI       Djibouti                                    0.6         0.0
+2021-02-07  DMA       Dominica                                    0.2         0.0
+2021-02-07  DNK       Denmark                                     3.5         0.0
+2021-02-07  DOM       Dominican Republic                          2.1         0.0
+2021-02-07  DZA       Algeria                                     0.2         0.0
+2021-02-07  ECU       Ecuador                                     1.5         0.1
+2021-02-07  EGY       Egypt                                       0.2         0.0
+2021-02-07  ERI       Eritrea                                     0.1         0.0
+2021-02-07  ESP       Spain                                       6.3         0.1
+2021-02-07  EST       Estonia                                     3.6         0.0
+2021-02-07  ETH       Ethiopia                                    0.1         0.0
+2021-02-07  FIN       Finland                                     0.9         0.0
+2021-02-07  FJI       Fiji                                        0.0         0.0
+2021-02-07  FRA       France                                      5.2         0.1
+2021-02-07  FSM       Micronesia (country)                        0.0         0.0
+2021-02-07  GAB       Gabon                                       0.5         0.0
+2021-02-07  GBR       United Kingdom                              5.8         0.2
+2021-02-07  GEO       Georgia                                     6.6         0.1
+2021-02-07  GHA       Ghana                                       0.2         0.0
+2021-02-07  GIN       Guinea                                      0.1         0.0
+2021-02-07  GMB       Gambia                                      0.2         0.0
+2021-02-07  GNB       Guinea-Bissau                               0.1         0.0
+2021-02-07  GNQ       Equatorial Guinea                           0.4         0.0
+2021-02-07  GRC       Greece                                      1.6         0.1
+2021-02-07  GRD       Grenada                                     0.1         0.0
+2021-02-07  GTM       Guatemala                                   0.9         0.0
+2021-02-07  GUY       Guyana                                      1.0         0.0
+2021-02-07  HND       Honduras                                    1.6         0.0
+2021-02-07  HRV       Croatia                                     5.7         0.1
+2021-02-07  HTI       Haiti                                       0.1         0.0
+2021-02-07  HUN       Hungary                                     3.9         0.1
+2021-02-07  IDN       Indonesia                                   0.4         0.0
+2021-02-07  IND       India                                       0.8         0.0
+2021-02-07  IRL       Ireland                                     4.1         0.1
+2021-02-07  IRN       Iran                                        1.7         0.1
+2021-02-07  IRQ       Iraq                                        1.6         0.0
+2021-02-07  ISL       Iceland                                     1.8         0.0
+2021-02-07  ISR       Israel                                      8.0         0.1
+2021-02-07  ITA       Italy                                       4.4         0.2
+2021-02-07  JAM       Jamaica                                     0.6         0.0
+2021-02-07  JOR       Jordan                                      3.3         0.0
+2021-02-07  JPN       Japan                                       0.3         0.0
+2021-02-07  KAZ       Kazakhstan                                  1.3         0.0
+2021-02-07  KEN       Kenya                                       0.2         0.0
+2021-02-07  KGZ       Kyrgyzstan                                  1.3         0.0
+2021-02-07  KHM       Cambodia                                    0.0         0.0
+2021-02-07  KNA       Saint Kitts and Nevis                       0.1         0.0
+2021-02-07  KOR       South Korea                                 0.2         0.0
+2021-02-07  KOS       Kosovo                                      3.2         0.1
+2021-02-07  KWT       Kuwait                                      4.0         0.0
+2021-02-07  LAO       Laos                                        0.0         0.0
+2021-02-07  LBN       Lebanon                                     4.7         0.1
+2021-02-07  LBR       Liberia                                     0.0         0.0
+2021-02-07  LBY       Libya                                       1.8         0.0
+2021-02-07  LCA       Saint Lucia                                 1.0         0.0
+2021-02-07  LIE       Liechtenstein                               6.6         0.1
+2021-02-07  LKA       Sri Lanka                                   0.3         0.0
+2021-02-07  LSO       Lesotho                                     0.4         0.0
+2021-02-07  LTU       Lithuania                                   6.9         0.1
+2021-02-07  LUX       Luxembourg                                  8.2         0.1
+2021-02-07  LVA       Latvia                                      3.8         0.1
+2021-02-07  MAR       Morocco                                     1.3         0.0
+2021-02-07  MCO       Monaco                                      4.2         0.0
+2021-02-07  MDA       Moldova                                     4.1         0.1
+2021-02-07  MDG       Madagascar                                  0.1         0.0
+2021-02-07  MDV       Maldives                                    3.1         0.0
+2021-02-07  MEX       Mexico                                      1.5         0.1
+2021-02-07  MHL       Marshall Islands                            0.0         0.0
+2021-02-07  MKD       North Macedonia                             4.6         0.1
+2021-02-07  MLI       Mali                                        0.0         0.0
+2021-02-07  MLT       Malta                                       4.2         0.1
+2021-02-07  MMR       Myanmar                                     0.3         0.0
+2021-02-07  MNE       Montenegro                                 10.4         0.1
+2021-02-07  MNG       Mongolia                                    0.1         0.0
+2021-02-07  MOZ       Mozambique                                  0.1         0.0
+2021-02-07  MRT       Mauritania                                  0.4         0.0
+2021-02-07  MUS       Mauritius                                   0.0         0.0
+2021-02-07  MWI       Malawi                                      0.1         0.0
+2021-02-07  MYS       Malaysia                                    0.7         0.0
+2021-02-07  NAM       Namibia                                     1.4         0.0
+2021-02-07  NER       Niger                                       0.0         0.0
+2021-02-07  NGA       Nigeria                                     0.1         0.0
+2021-02-07  NIC       Nicaragua                                   0.1         0.0
+2021-02-07  NLD       Netherlands                                 6.0         0.1
+2021-02-07  NOR       Norway                                      1.2         0.0
+2021-02-07  NPL       Nepal                                       0.9         0.0
+2021-02-07  NZL       New Zealand                                 0.0         0.0
+2021-02-07  OMN       Oman                                        2.7         0.0
+2021-02-07  PAK       Pakistan                                    0.3         0.0
+2021-02-07  PAN       Panama                                      7.6         0.1
+2021-02-07  PER       Peru                                        3.6         0.1
+2021-02-07  PHL       Philippines                                 0.5         0.0
+2021-02-07  PNG       Papua New Guinea                            0.0         0.0
+2021-02-07  POL       Poland                                      4.1         0.1
+2021-02-07  PRT       Portugal                                    7.5         0.1
+2021-02-07  PRY       Paraguay                                    1.9         0.0
+2021-02-07  PSE       Palestine                                   3.2         0.0
+2021-02-07  QAT       Qatar                                       5.3         0.0
+2021-02-07  ROU       Romania                                     3.9         0.1
+2021-02-07  RUS       Russia                                      2.7         0.1
+2021-02-07  RWA       Rwanda                                      0.1         0.0
+2021-02-07  SAU       Saudi Arabia                                1.1         0.0
+2021-02-07  SDN       Sudan                                       0.1         0.0
+2021-02-07  SEN       Senegal                                     0.2         0.0
+2021-02-07  SGP       Singapore                                   1.0         0.0
+2021-02-07  SLB       Solomon Islands                             0.0         0.0
+2021-02-07  SLE       Sierra Leone                                0.0         0.0
+2021-02-07  SLV       El Salvador                                 0.9         0.0
+2021-02-07  SMR       San Marino                                  9.2         0.2
+2021-02-07  SOM       Somalia                                     0.0         0.0
+2021-02-07  SRB       Serbia                                      6.0         0.1
+2021-02-07  SSD       South Sudan                                 0.0         0.0
+2021-02-07  STP       Sao Tome and Principe                       0.6         0.0
+2021-02-07  SUR       Suriname                                    1.5         0.0
+2021-02-07  SVK       Slovakia                                    4.8         0.1
+2021-02-07  SVN       Slovenia                                    8.4         0.2
+2021-02-07  SWE       Sweden                                      5.8         0.1
+2021-02-07  SWZ       Eswatini                                    1.4         0.1
+2021-02-07  SYC       Seychelles                                  1.5         0.0
+2021-02-07  SYR       Syria                                       0.1         0.0
+2021-02-07  TCD       Chad                                        0.0         0.0
+2021-02-07  TGO       Togo                                        0.1         0.0
+2021-02-07  THA       Thailand                                    0.0         0.0
+2021-02-07  TJK       Tajikistan                                  0.1         0.0
+2021-02-07  TLS       Timor                                       0.0         0.0
+2021-02-07  TTO       Trinidad and Tobago                         0.5         0.0
+2021-02-07  TUN       Tunisia                                     1.8         0.1
+2021-02-07  TUR       Turkey                                      3.0         0.0
+2021-02-07  TWN       Taiwan                                      0.0         0.0
+2021-02-07  TZA       Tanzania                                    0.0         0.0
+2021-02-07  UGA       Uganda                                      0.1         0.0
+2021-02-07  UKR       Ukraine                                     2.9         0.1
+2021-02-07  URY       Uruguay                                     1.3         0.0
+2021-02-07  USA       United States                               8.2         0.1
+2021-02-07  UZB       Uzbekistan                                  0.2         0.0
+2021-02-07  VAT       Vatican                                     3.3         0.0
+2021-02-07  VCT       Saint Vincent and the Grenadines            1.1         0.0
+2021-02-07  VEN       Venezuela                                   0.5         0.0
+2021-02-07  VNM       Vietnam                                     0.0         0.0
+2021-02-07  VUT       Vanuatu                                     0.0         0.0
+2021-02-07  WSM       Samoa                                       0.0         0.0
+2021-02-07  YEM       Yemen                                       0.0         0.0
+2021-02-07  ZAF       South Africa                                2.5         0.1
+2021-02-07  ZMB       Zambia                                      0.3         0.0
+2021-02-07  ZWE       Zimbabwe                                    0.2         0.0

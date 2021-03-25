@@ -1,0 +1,7 @@
+﻿  account.cpp
+C:\Users\Tempest\Source\Repos\C++ Codes\lab3\lab3\account.cpp(30,2): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Tempest\Source\Repos\C++ Codes\lab3\lab3\account.cpp(43,2): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Tempest\Source\Repos\C++ Codes\lab3\lab3\account.cpp(56,2): warning C4834: discarding return value of function with 'nodiscard' attribute
+  lab3.cpp
+  Generating Code...
+  lab3.vcxproj -> C:\Users\Tempest\Source\Repos\C++ Codes\lab3\Debug\lab3.exe

@@ -1,0 +1,13 @@
+6 9.25 m
+Snickers
+20 2.5
+Twix
+20 1.75
+Milk Duds
+20 1
+Reese's
+20 3
+Twizzlers
+13 4.25
+Milky Way
+15 2.25
