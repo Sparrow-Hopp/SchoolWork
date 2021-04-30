@@ -1,0 +1,14 @@
+Total Sales: 13.5
+Total Orders: 1
+Total Items Purchased: 3
+Average Items Per Order: 3
+
+
+
+Total Sales: 27.21
+Total Orders: 4
+Total Items Purchased: 5
+Average Items Per Order: 1
+
+
+
