@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\Game.h(22,12): warning C4584: 'Game': base-class 'Trackable' is already a base-class of 'EventListener'
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\Trackable.h(5): message : see declaration of 'Trackable'
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\EventSystem.h(7): message : see declaration of 'EventListener'
+  Game.cpp
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\Game.h(22,12): warning C4584: 'Game': base-class 'Trackable' is already a base-class of 'EventListener'
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\Trackable.h(5): message : see declaration of 'Trackable'
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\EventSystem.h(7): message : see declaration of 'EventListener'
+  Generating Code...
+  assignment2.vcxproj -> C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\Debug\assignment4.exe

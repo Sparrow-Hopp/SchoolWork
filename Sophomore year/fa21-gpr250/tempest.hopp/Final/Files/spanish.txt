@@ -1,0 +1,10 @@
+neuvo juego
+cargar juego
+opciones
+salida
+rever
+Espanol
+menu principal
+seguir
+elevar a mismo nivel
+nivel

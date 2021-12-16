@@ -1,0 +1,57 @@
+class EventSystem;
+
+//data being passed
+class Event 
+{
+public:
+	int value;
+};
+
+//observer
+class EventListener
+{
+public:
+	EventListener(EventSystem* eventSystem, const string& name) :m_name(name), m_eventSystem(eventSystem) {}
+	~EventListener() {
+		m_eventSystem->removeListener(this);
+	}
+	void onReceived(const Event& event) {
+		cout << m_name << " Reveived event" << event.value << endl;
+	}
+private:
+	string m_name;
+	EventSystem* m_eventSystem;
+};
+
+//subject
+class EventSystem 
+{
+public:
+	void addListener(EventListener* listener) {
+		m_listeners.push_back(listener);
+	}
+	void removeListener(EventListener* listener) {
+		m_listeners.erase(remove(m_listeners.begin(), m_listeners.end(), listener), m_listeners.end());
+	}
+	void fire(const Event& event) {
+		for (size_t i = 0; i < m_listeners.size(); i++)
+		{
+			m_listeners[i]->onReceived(event);
+		}
+	}
+private:
+	vector<EventListener*> m_listeners;
+};
+
+/*
+int main() {
+	EventSystem eventSystem;
+	EventListener listener("Bob");
+	EventListener listener2("Linda");
+	eventSystem.addListener(&listener);
+	eventSystem.addListener(&listener2);
+	eventSystem.fire({5});
+	eventSystem.fire({8});
+	cin.get();
+}
+*/

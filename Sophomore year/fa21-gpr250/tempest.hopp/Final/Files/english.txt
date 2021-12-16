@@ -1,0 +1,10 @@
+new game
+load game
+options
+exit
+retry
+English
+main menu
+continue
+level up
+level

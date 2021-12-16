@@ -1,0 +1,8 @@
+﻿  Color.cpp
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment2\GraphicsLib\Color.h(9,1): error C2504: 'Trackable': base class undefined
+  Font.cpp
+  GraphicsLib.cpp
+  GraphicsBuffer.cpp
+  GraphicsSystem.cpp
+  Sprite.cpp
+  Generating Code...

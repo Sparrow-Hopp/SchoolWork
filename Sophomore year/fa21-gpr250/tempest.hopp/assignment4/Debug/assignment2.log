@@ -1,0 +1,11 @@
+﻿  Game.cpp
+  UnitManager.cpp
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(56,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\UnitManager.cpp(39): warning C4715: 'UnitManager::getUnit': not all control paths return a value
+  assignment2.vcxproj -> C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment4\Debug\assignment4.exe

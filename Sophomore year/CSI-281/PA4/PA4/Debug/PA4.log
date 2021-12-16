@@ -1,0 +1,10 @@
+﻿  functions.cpp
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\PA4\functions.cpp(12,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\PA4\functions.cpp(19,13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\PA4\functions.cpp(49,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\PA4\functions.cpp(74,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\PA4\functions.cpp(86,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\PA4\functions.cpp(92,13): warning C4018: '<': signed/unsigned mismatch
+  pa4.cpp
+  Generating Code...
+  PA4.vcxproj -> C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\CSI-281\PA4\Debug\PA4.exe

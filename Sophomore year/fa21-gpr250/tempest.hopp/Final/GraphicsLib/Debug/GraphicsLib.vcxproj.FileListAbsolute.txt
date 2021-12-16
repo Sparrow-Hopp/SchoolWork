@@ -1,0 +1,4 @@
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\GraphicsLib\Debug\GraphicsLib.lib
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\GraphicsLib\Debug\GraphicsLib.pdb
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\GraphicsLib\Debug\GraphicsLib.lib
+C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\GraphicsLib\Debug\GraphicsLib.pdb
