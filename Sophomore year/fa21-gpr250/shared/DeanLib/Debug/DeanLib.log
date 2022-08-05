@@ -1,1 +1,12 @@
-﻿  DeanLib.vcxproj -> C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\DeanLib\lib\DeanLibDebug.lib
+﻿  DeanMath.cpp
+  Event.cpp
+  EventListener.cpp
+  EventSystem.cpp
+  MemoryPool.cpp
+  MemoryTracker.cpp
+  PerformanceTracker.cpp
+  Timer.cpp
+  Trackable.cpp
+  Vector2D.cpp
+  Generating Code...
+  DeanLib.vcxproj -> C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\shared\DeanLib\lib\DeanLibDebug.lib

@@ -2,3 +2,5 @@ C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\Debug\ass
 C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\assignment5\Debug\assignment4.pdb
 C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\Debug\FinalProj.exe
 C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\Debug\FinalProj.pdb
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\Debug\FinalProj.exe
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\Debug\FinalProj.pdb

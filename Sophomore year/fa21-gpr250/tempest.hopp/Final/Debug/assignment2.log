@@ -1,18 +1,29 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (assignment4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ButtonManager.cpp
   FruitManager.cpp
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
-  Game.cpp
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\Game.h(38,12): warning C4584: 'Game': base-class 'Trackable' is already a base-class of 'EventListener'
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\Trackable.h(5): message : see declaration of 'Trackable'
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\EventSystem.h(7): message : see declaration of 'EventListener'
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  GraphicsBufferManager.cpp
+  InputTranslator.cpp
   main.cpp
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\Game.h(38,12): warning C4584: 'Game': base-class 'Trackable' is already a base-class of 'EventListener'
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\Trackable.h(5): message : see declaration of 'Trackable'
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\shared\deanlib\include\EventSystem.h(7): message : see declaration of 'EventListener'
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\Game.h(38,12): warning C4584: 'Game': base-class 'Trackable' is already a base-class of 'EventListener'
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\shared\deanlib\include\Trackable.h(5): message : see declaration of 'Trackable'
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\shared\deanlib\include\EventSystem.h(7): message : see declaration of 'EventListener'
+  Game.cpp
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\Game.h(38,12): warning C4584: 'Game': base-class 'Trackable' is already a base-class of 'EventListener'
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\shared\deanlib\include\Trackable.h(5): message : see declaration of 'Trackable'
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\shared\deanlib\include\EventSystem.h(7): message : see declaration of 'EventListener'
+  UnitManager.cpp
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(56,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
-C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(41): warning C4715: 'FruitManager::getFruit': not all control paths return a value
-  assignment2.vcxproj -> C:\Users\Tempest\OneDrive\Desktop\fa21-gpr250\tempest.hopp\Final\Debug\FinalProj.exe
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\UnitManager.cpp(39): warning C4715: 'UnitManager::getUnit': not all control paths return a value
+C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\FruitManager.cpp(41): warning C4715: 'FruitManager::getFruit': not all control paths return a value
+  assignment2.vcxproj -> C:\Users\Tempest\Source\Repos\SchoolWork\Sophomore year\fa21-gpr250\tempest.hopp\Final\Debug\FinalProj.exe
