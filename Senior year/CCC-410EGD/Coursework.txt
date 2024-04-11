@@ -1,0 +1,6 @@
+Due to complications involving the use of git and Unreal Engine projects,
+the files for this course are unavailable.
+However, you can view the end product of this course on my itch page,
+which can be located at sparrowhopp.itch.io
+The project you are looking for is titled Project Paint,
+and is the top project on my page.
